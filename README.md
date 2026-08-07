@@ -1,188 +1,83 @@
-<h1 align="center">Hi 👋, I'm Sushant Kumar</h1>
-<h3 align="center">🚀 Full Stack Developer | AI Enthusiast | Open Source Learner</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Next.js+%7C+TypeScript;Backend+Developer;AI+%26+Developer+Tools+Builder;Always+Learning+Something+New" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,50:58A6FF,100:7C3AED&text=Sushant%20Kumar&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Java%20Enthusiast%20%7C%20Open%20Source%20Contributor&descAlignY=60"/>
 
----
+# Hi there 👋 I'm Sushant Kumar
 
-## 💫 About Me
+### Full Stack Developer • Java Developer • Open Source Contributor
 
-💻 Full Stack Developer passionate about building scalable web applications and developer tools.
-
-🌱 Currently exploring
-
-- Advanced Backend Development
-- System Design
-- AI Powered Applications
-- Cloud Technologies
-
-🎯 Interested in
-
-- Full Stack Development
-- Developer Tools
-- Artificial Intelligence
-- Open Source
-- Software Engineering
-
-⚡ Fun Fact
-
-> I love turning ideas into products that solve real-world problems.
-
----
-
-## 🌐 Connect With Me
-
-<p align="left">
-<a href="https://github.com/sushant2806" target="_blank">
-<img src="https://skillicons.dev/icons?i=github" width="48"/>
-</a>
-
-<a href="https://linkedin.com/in/sushantkumar6" target="_blank">
-<img src="https://skillicons.dev/icons?i=linkedin" width="48"/>
-</a>
-
-<a href="mailto:sushant31kumar@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" width="48"/>
-</a>
-
-</p>
-
----
-
-# 🚀 Tech Stack
-
-### Languages
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Java+Developer;Open+Source+Contributor;AI+%26+IoT+Explorer;Always+Learning+New+Technologies"/>
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,python,cpp,c,js,ts" />
+Building scalable software, solving real-world problems, and continuously learning modern technologies.
 </p>
 
-### Frontend
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=0e75b6&style=flat"/>
+
+</div>
+
+---
+
+# 💼 Professional Summary
+
+I'm a Computer Science Engineering student passionate about building modern web applications, backend systems, AI-powered solutions, and IoT projects.
+
+I enjoy contributing to open source, learning software engineering best practices, and creating applications that solve real-world problems.
+
+---
+
+# 🚀 Currently
+
+- 🔭 Building Full Stack Projects
+- 🌱 Learning Spring Boot & System Design
+- 👨‍💻 Contributing to Open Source
+- ⚡ Exploring AI & IoT
+- 🎯 Preparing for Software Engineering Internships
+
+---
+
+# 🛠 Tech Stack
+
+## Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,vite" />
+<img src="https://skillicons.dev/icons?i=java,js,python,cpp,c,mysql"/>
 </p>
 
-### Backend
+## Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
+<img src="https://skillicons.dev/icons?i=html,css,react,tailwind,vite"/>
 </p>
 
-### Database & Cloud
+## Backend
 
 <p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,firebase,supabase" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,spring"/>
 </p>
 
-### Tools
+## Database
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,arduino" />
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase"/>
+</p>
+
+## Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,figma"/>
 </p>
 
 ---
 
-# 🏆 Featured Projects
+# 🚀 Featured Projects
 
-## 🔹 CodeXPath
-> GitHub Repository Analysis & Learning Roadmap Generator
-
-✨ Features
-
-- Repository Analysis
-- Architecture Detection
-- Framework Identification
-- Learning Roadmap Generation
-- PostgreSQL Powered Backend
-- Beautiful React Dashboard
-
-**Tech**
-
-`React`
-`TypeScript`
-`Node.js`
-`Express`
-`PostgreSQL`
-`Tailwind CSS`
+| Project | Description |
+|----------|-------------|
+| 🌍 Travel Guide | Responsive travel platform with trip planner |
+| 🤖 AI Smart Home | Intelligent home automation ecosystem |
+| 🌱 Smart Irrigation | IoT-based smart irrigation system |
+| 💰 Expense Tracker | Modern React expense manager |
+| ☁️ Open Source | UI improvements & community contributions |
 
 ---
-
-## 🇮🇳 Bharat Intelligence
-
-AI Powered Citizen Intelligence & Governance Platform
-
-### Highlights
-
-- Secure Authentication
-- RBAC
-- Gemini AI Integration
-- Analytics Dashboard
-- Geo Intelligence
-- PostgreSQL Database
-
-**Tech**
-
-`Next.js`
-`React`
-`Supabase`
-`Gemini API`
-`Tailwind CSS`
-
----
-
-## 🌱 Smart Agriculture Monitoring
-
-IoT + Machine Learning based Smart Irrigation System
-
-- ESP32
-- Python
-- Machine Learning
-- Chart.js Dashboard
-
----
-
-## 🌊 Underwater Object Detection
-
-CNN based Low-Light Underwater Object Detection using Deep Learning.
-
-- Python
-- OpenCV
-- PyTorch
-- Computer Vision
-
----
-
-# 🏅 Achievements
-
-🥇 Winner — Pre-AI Summit Hackathon, IIT Ropar
-
-🥇 Winner — Stack Sprint 1.0 Hackathon, Chandigarh University
-
-📜 Two Published Patent Applications
-
----
-
-# 📊 Activity Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sushant2806&theme=react-dark"/>
-</p>
-
----
-
-# 💡 Quote
-
-> "Code. Learn. Build. Repeat."
-
----
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=sushant2806&label=Profile+Views&color=0e75b6&style=flat"/>
-</p>
-
-<h3 align="center">
-⭐ Thanks for visiting my profile ⭐
-</h3>
