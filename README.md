@@ -4,85 +4,38 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,50:172554,100:7C3AED&text=Sushant%20Kumar&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Java%20%7C%20Open%20Source&descAlignY=60"/>
-
-<h3>Building software that solves real-world problems.</h3>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Java+Developer;Open+Source+Contributor;AI+%26+IoT+Explorer;Always+Learning%2C+Always+Building"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,45:172554,100:6D28D9&text=Sushant%20Kumar&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Java%20%7C%20Open%20Source&descAlignY=58&descSize=20&animation=fadeIn"/>
 
 <br>
 
+<img src="https://img.shields.io/badge/%3C%20%2F%3E%20SOFTWARE%20ENGINEER-0D1117?style=for-the-badge&logo=code&logoColor=58A6FF&labelColor=0D1117"/>
 
-<div align="center">
+<h2>
+Building software that solves real-world problems.
+</h2>
 
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/sushant2806">
-<img src="https://cdn.simpleicons.org/github/FFFFFF" width="40" height="40" alt="GitHub"/>
-</a>
-</td>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;Java+%7C+Spring+Boot+Developer;Open+Source+Contributor;AI+%26+IoT+Explorer;Always+Learning+%7C+Always+Building"/>
 
-<td align="center">
-<a href="https://www.linkedin.com/in/sushantkumar6">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn"/>
-</a>
-</td>
+<br>
 
-<td align="center">
-<a href="mailto:sushant2806kumar@gmail.com">
-<img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email"/>
-</a>
-</td>
+<p>
+<img src="https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=ED8B00"/>
+<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Spring%20Boot-0D1117?style=flat-square&logo=springboot&logoColor=6DB33F"/>
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1"/>
+<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032"/>
+</p>
 
-<td align="center">
-<a href="https://leetcode.com/u/Kumar-Sushant/">
-<img src="https://cdn.simpleicons.org/leetcode/FFA116" width="40" height="40" alt="LeetCode"/>
-</a>
-</td>
-</tr>
-</table>
-
-</div>
-<!-- <div align="center">
+<br>
 
 <a href="https://github.com/sushant2806">
-  <img src="https://cdn.simpleicons.org/github/FFFFFF"
-       width="40"
-       height="40"
-       alt="GitHub"/>
+<img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
-&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/sushantkumar6">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-       width="40"
-       height="40"
-       alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-
-&nbsp;&nbsp;&nbsp;
-
-<a href="mailto:sushant2806kumar@gmail.com">
-  <img src="https://cdn.simpleicons.org/gmail/EA4335"
-       width="40"
-       height="40"
-       alt="Email"/>
-</a>
-
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://leetcode.com/u/Kumar-Sushant/">
-  <img src="https://cdn.simpleicons.org/leetcode/FFA116"
-       width="40"
-       height="40"
-       alt="LeetCode"/>
-</a>
-
-</div> -->
-
-<!-- <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=58A6FF&style=flat-square"/> -->
 
 </div>
 
@@ -119,47 +72,213 @@ Mindset     → Learn • Build • Contribute • Improve
 
 ---
 
-# 🛠 Tech Stack
+<h2>🛠️ Tech Stack</h2>
 
-## Languages
+<table>
+<tr>
 
-<p>
-<img src="https://skillicons.dev/icons?i=java,js,python,cpp,c"/>
-</p>
+<!-- LANGUAGES -->
+<td width="50%" valign="top">
 
----
+<h3>💻 Languages</h3>
 
-## Frontend
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=java" width="32"/><br>
+Java
+</td>
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,react,tailwind,vite"/>
-</p>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=js" width="32"/><br>
+JavaScript
+</td>
 
----
+<td align="center">
+<img src="https://skillicons.dev/icons?i=python" width="32"/><br>
+Python
+</td>
 
-## Backend
+<td align="center">
+<img src="https://skillicons.dev/icons?i=cpp" width="32"/><br>
+C++
+</td>
+</tr>
+</table>
 
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring"/>
-</p>
+</td>
 
----
+<!-- BACKEND -->
+<td width="50%" valign="top">
 
-## Database & Cloud
+<h3>⚙️ Backend</h3>
 
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase"/>
-</p>
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=spring" width="32"/><br>
+Spring Boot
+</td>
 
----
+<td align="center">
+<img src="https://skillicons.dev/icons?i=nodejs" width="32"/><br>
+Node.js
+</td>
 
-## Tools & Platforms
+<td align="center">
+<img src="https://skillicons.dev/icons?i=express" width="32"/><br>
+Express.js
+</td>
+</tr>
+</table>
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,figma,linux"/>
-</p>
+</td>
 
----
+</tr>
+
+<tr>
+
+<!-- FRONTEND -->
+<td width="50%" valign="top">
+
+<h3>🌐 Frontend</h3>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=html" width="32"/><br>
+HTML
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=css" width="32"/><br>
+CSS
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=react" width="32"/><br>
+React
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=vite" width="32"/><br>
+Vite
+</td>
+</tr>
+</table>
+
+</td>
+
+<!-- DATABASE -->
+<td width="50%" valign="top">
+
+<h3>🗄️ Database & Cloud</h3>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=mysql" width="32"/><br>
+MySQL
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=mongodb" width="32"/><br>
+MongoDB
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=firebase" width="32"/><br>
+Firebase
+</td>
+</tr>
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<!-- TOOLS -->
+<td width="50%" valign="top">
+
+<h3>🔧 Tools & Platforms</h3>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=git" width="32"/><br>
+Git
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=github" width="32"/><br>
+GitHub
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=docker" width="32"/><br>
+Docker
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=postman" width="32"/><br>
+Postman
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=vscode" width="32"/><br>
+VS Code
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=figma" width="32"/><br>
+Figma
+</td>
+
+<td></td>
+<td></td>
+</tr>
+</table>
+
+</td>
+
+<!-- AI & IOT -->
+<td width="50%" valign="top">
+
+<h3>🤖 AI & IoT</h3>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=python" width="32"/><br>
+Python
+</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=arduino" width="32"/><br>
+Arduino
+</td>
+
+<td align="center">
+🔌<br>
+ESP32
+</td>
+
+<td align="center">
+🔌<br>
+ESP8266
+</td>
+</tr>
+</table>
+
+</td>
+
+</tr>
+</table>
+
 <!--# 📊 GitHub Analytics -->
 
 <!-- <div align="center">
