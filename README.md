@@ -12,27 +12,77 @@
 
 <br>
 
-<p>
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white"/>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/sushant2806">
+<img src="https://cdn.simpleicons.org/github/FFFFFF" width="40" height="40" alt="GitHub"/>
+</a>
+</td>
+
+<td align="center">
+<a href="https://www.linkedin.com/in/sushantkumar6">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn"/>
+</a>
+</td>
+
+<td align="center">
+<a href="mailto:sushant2806kumar@gmail.com">
+<img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email"/>
+</a>
+</td>
+
+<td align="center">
+<a href="https://leetcode.com/u/Kumar-Sushant/">
+<img src="https://cdn.simpleicons.org/leetcode/FFA116" width="40" height="40" alt="LeetCode"/>
+</a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- <div align="center">
+
+<a href="https://github.com/sushant2806">
+  <img src="https://cdn.simpleicons.org/github/FFFFFF"
+       width="40"
+       height="40"
+       alt="GitHub"/>
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
-<img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/sushantkumar6">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+       width="40"
+       height="40"
+       alt="LinkedIn"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+&nbsp;&nbsp;&nbsp;
+
+<a href="mailto:sushant2806kumar@gmail.com">
+  <img src="https://cdn.simpleicons.org/gmail/EA4335"
+       width="40"
+       height="40"
+       alt="Email"/>
 </a>
 
-<a href="https://leetcode.com/YOUR_LEETCODE/">
-<img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116"/>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://leetcode.com/u/Kumar-Sushant/">
+  <img src="https://cdn.simpleicons.org/leetcode/FFA116"
+       width="40"
+       height="40"
+       alt="LeetCode"/>
 </a>
-</p>
 
-<br>
+</div> -->
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=58A6FF&style=flat-square"/>
+<!-- <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=58A6FF&style=flat-square"/> -->
 
 </div>
 
