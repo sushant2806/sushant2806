@@ -160,24 +160,39 @@ Mindset     → Learn • Build • Contribute • Improve
 </p>
 
 ---
+<!--# 📊 GitHub Analytics -->
 
-# 📊 GitHub Analytics
+<!-- <div align="center">
 
-<div align="center">
+<a href="https://github.com/sushant2806">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sushant2806&theme=github_dark"
+    width="95%"
+    alt="GitHub Profile Summary"
+  />
+</a>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=7C3AED&text_color=C9D1D9&include_all_commits=true&count_private=true"/>
+<br><br>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8"/>
+<a href="https://github.com/sushant2806">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sushant2806&theme=github_dark"
+    width="46%"
+    alt="GitHub Statistics"
+  />
+</a>
 
-</div>
+&nbsp;
 
-<br>
+<a href="https://github.com/sushant2806">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sushant2806&theme=github_dark"
+    width="46%"
+    alt="Repositories by Language"
+  />
+</a>
 
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=7C3AED&currStreakLabel=58A6FF"/>
-
-</div>
+</div> -->
 
 ---
 
@@ -185,23 +200,37 @@ Mindset     → Learn • Build • Contribute • Improve
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0D1117&color=58A6FF&line=7C3AED&point=FFFFFF&area=true&hide_border=true"/>
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=sushant2806&bg_color=0D1117&color=58A6FF&line=7C3AED&point=FFFFFF&area=true&hide_border=true"
+  width="95%"
+  alt="GitHub Contribution Activity"
+/>
 
 </div>
 
----
-
-# 🐍 Contribution Graph
+# 🔥 GitHub Streak
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+<img
+  src="https://streak-stats.demolab.com?user=sushant2806&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=7C3AED&currStreakLabel=58A6FF"
+  width="70%"
+  alt="GitHub Streak"
+/>
 
 </div>
 
+<!-- # 🐍 Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/sushant2806/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+
+</div> -->
+
 ---
 
-# 🏆 Open Source Journey
+<!--# 🏆 Open Source Journey
 
 ```text
 2026
@@ -228,7 +257,7 @@ Mindset     → Learn • Build • Contribute • Improve
 - 📚 Documentation
 - 🤝 Community Collaboration
 
----
+--- -->
 
 # 🌱 Currently Learning
 
@@ -270,7 +299,7 @@ Mindset     → Learn • Build • Contribute • Improve
 
 ---
 
-# 🤝 Let's Connect
+<!-- # 🤝 Let's Connect
 
 I'm always interested in connecting with developers, students, open-source contributors, and people building interesting things.
 
@@ -294,7 +323,7 @@ I'm always interested in connecting with developers, students, open-source contr
 
 </div>
 
----
+--- -->
 
 # 💬 Developer Philosophy
 
