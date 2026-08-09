@@ -119,82 +119,12 @@ Mindset     → Learn • Build • Contribute • Improve
 
 ---
 
-# 🚀 Featured Projects
-
-> A selection of projects I've built while learning, experimenting, and solving real-world problems.
-
----
-
-### 🌍 Travel Guide Platform
-
-**A responsive travel platform designed to help users discover destinations, explore attractions, and plan trips.**
-
-**Tech Stack**
-
-`React` `JavaScript` `HTML` `CSS`
-
-🔗 [Repository](https://github.com/YOUR_USERNAME/YOUR_REPO)
-
-🌐 [Live Demo](YOUR_LIVE_DEMO)
-
----
-
-### 🤖 AURA — AI Powered Smart Home
-
-**An intelligent IoT ecosystem designed to monitor environmental conditions, detect human presence, and automate home appliances.**
-
-**Tech Stack**
-
-`ESP32` `IoT` `AI` `Sensors` `Automation`
-
-🔗 [Repository](https://github.com/YOUR_USERNAME/YOUR_REPO)
-
----
-
-### 🌱 Smart Irrigation System
-
-**An IoT-based irrigation system that monitors soil conditions and automates watering to improve water efficiency.**
-
-**Tech Stack**
-
-`ESP8266` `Arduino` `Sensors` `IoT`
-
-🔗 [Repository](https://github.com/YOUR_USERNAME/YOUR_REPO)
-
----
-
-### 💰 Expense Tracker
-
-**A responsive application for tracking income, expenses, and personal spending habits.**
-
-**Tech Stack**
-
-`React` `JavaScript` `HTML` `CSS`
-
-🔗 [Repository](https://github.com/YOUR_USERNAME/YOUR_REPO)
-
-🌐 [Live Demo](YOUR_LIVE_DEMO)
-
----
-
-### ☁️ Cloud Stack Club — Open Source
-
-**Contributing to an open-source community project through UI improvements, bug fixes, and frontend enhancements.**
-
-**Tech Stack**
-
-`React` `JavaScript` `CSS` `Git` `GitHub`
-
-🔗 [Repository](https://github.com/sushant2806/Cloud-Stack-Club)
-
----
-
 # 🛠 Tech Stack
 
 ## Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,js,python,cpp,c,mysql"/>
+<img src="https://skillicons.dev/icons?i=java,js,python,cpp,c"/>
 </p>
 
 ---
