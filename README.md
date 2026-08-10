@@ -1,48 +1,73 @@
 <!-- ========================================================= -->
-<!--                    HERO SECTION                           -->
+<!--                       HERO SECTION                        -->
 <!-- ========================================================= -->
 
-<!-- Animated Banner -->
-<div align="center">
+<table width="100%">
+<tr>
 
-<img
-  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81bb4b165684019.640b6038d133e.gif"
-  width="100%"
-  alt="Animated Developer Banner"
-/>
-<h2>Building software that solves real-world problems.</h2>
+<td width="45%" valign="middle">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,45:172554,100:6D28D9&text=Sushant%20Kumar&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Java%20%7C%20Open%20Source&descAlignY=58&descSize=20&animation=fadeIn"/>
+<h1>
+Hi! I'm<br>
+Sushant Kumar.
+</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;Java+%7C+Spring+Boot+Developer;Open+Source+Contributor;AI+%26+IoT+Explorer;Always+Learning+%7C+Always+Building"/>
+<h2>
+Full Stack<br>
+Developer
+</h2>
 
-</div>
-<div align="center">
-
-<!--
-<img src="https://img.shields.io/badge/%3C%20%2F%3E%20SOFTWARE%20ENGINEER-0D1117?style=for-the-badge&logo=code&logoColor=58A6FF&labelColor=0D1117"/>
--->
+<p>
+Building software that solves real-world problems through
+creativity, engineering, and continuous learning.
+</p>
 
 <br>
 
 <p>
-<img src="https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=ED8B00"/>
-<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Spring%20Boot-0D1117?style=flat-square&logo=springboot&logoColor=6DB33F"/>
-<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E"/>
-<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1"/>
-<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032"/>
+☕ <b>Java</b> &nbsp; • &nbsp;
+⚛️ <b>React</b> &nbsp; • &nbsp;
+🌱 <b>Spring Boot</b>
+</p>
+
+<p>
+🤖 <b>AI & IoT</b> &nbsp; • &nbsp;
+🤝 <b>Open Source</b>
 </p>
 
 <br>
 
 <a href="https://github.com/sushant2806">
-<img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-sushant2806-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 <a href="https://www.linkedin.com/in/sushantkumar6">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+
+</td>
+
+<td width="55%" align="center">
+
+<img
+  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81bb4b165684019.640b6038d133e.gif"
+  width="100%"
+  alt="Animated Developer"
+/>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;Java+%7C+Spring+Boot+Developer;Open+Source+Contributor;AI+%26+IoT+Explorer;Always+Learning+%7C+Always+Building"
+alt="Typing Animation"
+/>
 
 </div>
 
