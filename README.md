@@ -1,22 +1,20 @@
-<!-- ========================================================= -->
-<!--                       HERO SECTION                        -->
-<!-- ========================================================= -->
+<!-- ========================= HERO ========================= -->
 
-<table width="100%">
+<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
 
-<td width="45%" valign="middle">
+<!-- ================= LEFT SIDE ================= -->
 
-<h1>
-Hi! I'm<br>
-Sushant Kumar.
-</h1>
+<td width="48%" valign="middle">
 
-<h2>
-Full Stack<br>
-Developer
-</h2>
+<!-- Animated Name Banner -->
 
+<img
+src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0D1117,45:172554,100:6D28D9&text=Sushant%20Kumar&fontSize=42&fontColor=FFFFFF&fontAlign=50&fontAlignY=48&animation=fadeIn"
+width="100%"
+alt="Sushant Kumar"
+/>
+<h2 style="margin-top: 5px;">Full Stack Developer</h2>
 <p>
 Building software that solves real-world problems through
 creativity, engineering, and continuous learning.
@@ -25,29 +23,41 @@ creativity, engineering, and continuous learning.
 <br>
 
 <p>
-☕ <b>Java</b> &nbsp; • &nbsp;
-⚛️ <b>React</b> &nbsp; • &nbsp;
+☕ <b>Java</b>
+&nbsp; • &nbsp;
+⚛️ <b>React</b>
+&nbsp; • &nbsp;
 🌱 <b>Spring Boot</b>
 </p>
 
 <p>
-🤖 <b>AI & IoT</b> &nbsp; • &nbsp;
+🤖 <b>AI & IoT</b>
+&nbsp; • &nbsp;
 🤝 <b>Open Source</b>
 </p>
 
 <br>
 
 <a href="https://github.com/sushant2806">
-<img src="https://img.shields.io/badge/GitHub-sushant2806-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img
+src="https://img.shields.io/badge/GitHub-sushant2806-181717?style=for-the-badge&logo=github&logoColor=white"
+alt="GitHub"
+/>
 </a>
 
 <a href="https://www.linkedin.com/in/sushantkumar6">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img
+src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+alt="LinkedIn"
+/>
 </a>
 
 </td>
 
-<td width="55%" align="center">
+
+<!-- ================= RIGHT SIDE ================= -->
+
+<td width="52%" align="center" valign="middle">
 
 <img
   src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81bb4b165684019.640b6038d133e.gif"
@@ -60,18 +70,7 @@ creativity, engineering, and continuous learning.
 </tr>
 </table>
 
-<br>
-
-<div align="center">
-
-<img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;Java+%7C+Spring+Boot+Developer;Open+Source+Contributor;AI+%26+IoT+Explorer;Always+Learning+%7C+Always+Building"
-alt="Typing Animation"
-/>
-
-</div>
-
----
+<!-- ======================= END HERO ======================= -->
 
 # 👋 About Me
 
