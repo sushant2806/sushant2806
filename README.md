@@ -2,17 +2,25 @@
 <!--                    HERO SECTION                           -->
 <!-- ========================================================= -->
 
+<!-- Animated Banner -->
+<div align="center">
+
+<img
+  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81bb4b165684019.640b6038d133e.gif"
+  width="100%"
+  alt="Animated Developer Banner"
+/>
+<h2>Building software that solves real-world problems.</h2>
+
+</div>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,45:172554,100:6D28D9&text=Sushant%20Kumar&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Java%20%7C%20Open%20Source&descAlignY=58&descSize=20&animation=fadeIn"/>
 
-<br>
 
+<!--
 <img src="https://img.shields.io/badge/%3C%20%2F%3E%20SOFTWARE%20ENGINEER-0D1117?style=for-the-badge&logo=code&logoColor=58A6FF&labelColor=0D1117"/>
-
-<h2>
-Building software that solves real-world problems.
-</h2>
+-->
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;Java+%7C+Spring+Boot+Developer;Open+Source+Contributor;AI+%26+IoT+Explorer;Always+Learning+%7C+Always+Building"/>
 
