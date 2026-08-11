@@ -102,398 +102,267 @@ Mindset     → Learn • Build • Contribute • Improve
 
 ---
 
-<h2>🛠️ Tech Stack</h2>
-
+# 🛠️ Tech Stack
 <table>
 <tr>
 
-<!-- LANGUAGES -->
-<td width="50%" valign="top">
+<!-- ======================= LEFT COLUMN ======================= -->
 
-<h3>💻 Languages</h3>
+<td width="52%" valign="top">
+
+## 💻 Languages
 
 <table>
 <tr>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=java" width="32"/><br>
-Java
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=js" width="32"/><br>
-JavaScript
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=python" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="45"/><br>
 Python
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=cpp" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="45"/><br>
+JavaScript
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="45"/><br>
+TypeScript
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="45"/><br>
+Java
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="45"/><br>
 C++
 </td>
 </tr>
 </table>
 
-</td>
-
-<!-- BACKEND -->
-<td width="50%" valign="top">
-
-<h3>⚙️ Backend</h3>
+## 🎨 Frontend
 
 <table>
 <tr>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=spring" width="32"/><br>
-Spring Boot
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=nodejs" width="32"/><br>
-Node.js
-</td>
-
-<td align="center">
-<img src="https://skillicons.dev/icons?i=express" width="32"/><br>
-Express.js
-</td>
-</tr>
-</table>
-
-</td>
-
-</tr>
-
-<tr>
-
-<!-- FRONTEND -->
-<td width="50%" valign="top">
-
-<h3>🌐 Frontend</h3>
-
-<table>
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=html" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="45"/><br>
 HTML
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=css" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="45"/><br>
 CSS
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=react" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="45"/><br>
 React
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=vite" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="45"/><br>
 Vite
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="45"/><br>
+Vue
 </td>
 </tr>
 </table>
 
-</td>
-
-<!-- DATABASE -->
-<td width="50%" valign="top">
-
-<h3>🗄️ Database & Cloud</h3>
+## ⚙️ Backend
 
 <table>
 <tr>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=mysql" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="45"/><br>
+Node.js
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="45"/><br>
+Spring Boot
+</td>
+
+<td align="center">
+<img src="https://cdn.simpleicons.org/express/FFFFFF" width="45"/><br>
+Express.js
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="45"/><br>
+Redis
+</td>
+
+</tr>
+</table>
+
+## 🗄️ Database & Cloud
+
+<table>
+<tr>
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="45"/><br>
 MySQL
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=mongodb" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="45"/><br>
+PostgreSQL
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="45"/><br>
 MongoDB
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=firebase" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg" width="45"/><br>
 Firebase
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="45"/><br>
+Supabase
 </td>
 </tr>
 </table>
 
-</td>
-
-</tr>
-
-<tr>
-
-<!-- TOOLS -->
-<td width="50%" valign="top">
-
-<h3>🔧 Tools & Platforms</h3>
+## 🔧 Tools & Platforms
 
 <table>
 <tr>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=git" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="45"/><br>
 Git
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=github" width="32"/><br>
+<img src="https://cdn.simpleicons.org/github/FFFFFF" width="45"/><br>
 GitHub
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=docker" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="45"/><br>
 Docker
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=postman" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="45"/><br>
 Postman
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=vscode" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="45"/><br>
 VS Code
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=figma" width="32"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="45"/><br>
 Figma
 </td>
 
-<td></td>
-<td></td>
-</tr>
-</table>
-
-</td>
-
-<!-- AI & IOT -->
-<td width="50%" valign="top">
-
-<h3>🤖 AI & IoT</h3>
-
-<table>
-<tr>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=python" width="32"/><br>
-Python
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" width="45"/><br>
+Canva
 </td>
 
 <td align="center">
-<img src="https://skillicons.dev/icons?i=arduino" width="32"/><br>
-Arduino
-</td>
-
-<td align="center">
-🔌<br>
-ESP32
-</td>
-
-<td align="center">
-🔌<br>
-ESP8266
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="45"/><br>
+Linux
 </td>
 </tr>
 </table>
 
-</td>
 
-</tr>
-</table>
+<!-- ======================= RIGHT COLUMN ======================= -->
 
-<!--# 📊 GitHub Analytics -->
+<td width="48%" valign="top">
 
-<!-- <div align="center">
+## 🌱 Currently Learning
 
-<a href="https://github.com/sushant2806">
+<p align="center">
+  <img src="https://img.shields.io/badge/⚛️%20React-Learning%20%26%20Building-61DAFB?style=for-the-badge&labelColor=555555&logoColor=black" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/☁️%20Cloud-Exploring-42A5F5?style=for-the-badge&labelColor=555555" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🧩%20DSA-Improving-F7DF1E?style=for-the-badge&labelColor=555555&logoColor=black" />
+</p>
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sushant2806&theme=github_dark"
-    width="95%"
-    alt="GitHub Profile Summary"
+    src="https://streak-stats.demolab.com?user=Utkrisht-Utpal&theme=github-dark-blue&hide_border=true"
+    width="100%"
+    alt="GitHub Streak"
   />
-</a>
+</p>
 
-<br><br>
-
-<a href="https://github.com/sushant2806">
+<p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sushant2806&theme=github_dark"
-    width="46%"
-    alt="GitHub Statistics"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Utkrisht-Utpal&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF&area=true&hide_border=true"
+    width="100%"
+    alt="GitHub Activity Graph"
   />
-</a>
-
-&nbsp;
-
-<a href="https://github.com/sushant2806">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sushant2806&theme=github_dark"
-    width="46%"
-    alt="Repositories by Language"
-  />
-</a>
-
-</div> -->
+</p>
 
 ---
 
-# 📈 Contribution Activity
+## 🤝 Connect With Me
 
-<div align="center">
+<p align="center">
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=sushant2806&bg_color=0D1117&color=58A6FF&line=7C3AED&point=FFFFFF&area=true&hide_border=true"
-  width="95%"
-  alt="GitHub Contribution Activity"
-/>
+<a href="https://twitter.com/no_thing64">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+</a>
 
-</div>
+<a href="https://linkedin.com/in/utkrisht-utpal">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-# 🔥 GitHub Streak
+<a href="https://leetcode.com/u/utpal_pro/">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+</a>
 
-<div align="center">
+<a href="https://discordapp.com/users/757179877576146945">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+</a>
 
-<img
-  src="https://streak-stats.demolab.com?user=sushant2806&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=7C3AED&currStreakLabel=58A6FF"
-  width="70%"
-  alt="GitHub Streak"
-/>
+</p>
 
-</div>
+<p align="center">
 
-<!-- # 🐍 Contribution Graph
+<a href="https://utkrishts-portfolio.webflow.io/">
+  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
 
-<div align="center">
+<a href="https://techdosecentral.blogspot.com/">
+  <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" />
+</a>
 
-<img src="https://raw.githubusercontent.com/sushant2806/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+<a href="https://1drv.ms/w/c/8641eff74dde96ef/IQApL_NwVo2MQYe9FSK_afNkAc5IYHi3myhcQsiY6eGzVSM?e=QKjZwJ">
+  <img src="https://img.shields.io/badge/Resume-0078D4?style=for-the-badge&logo=microsoftword&logoColor=white" />
+</a>
 
-</div> -->
+</p>
 
 ---
 
-<!--# 🏆 Open Source Journey
+<p align="center">
+  <i>Building things that solve problems.</i>
+</p>
 
-```text
-2026
-│
-├── 🎓 Continued Computer Science Engineering
-│
-├── ☁️ Joined Cloud Stack Club
-│
-├── 💻 Started contributing to Open Source
-│
-├── 🐛 Worked on UI bugs and frontend improvements
-│
-├── 🔀 Submitted and merged Pull Requests
-│
-└── 🚀 Continuing to build and contribute
-```
-
-### Open Source Focus
-
-- 🐛 Bug Fixes
-- ♻️ Code Improvements
-- 🎨 UI / UX Improvements
-- 📱 Responsive Design
-- 📚 Documentation
-- 🤝 Community Collaboration
-
---- -->
-
-# 🌱 Currently Learning
-
-<div align="center">
-
-| Technology | Focus |
-|------------|-------|
-| ☕ Java | DSA & Advanced Concepts |
-| 🌱 Spring Boot | Backend Development |
-| 🧩 System Design | Software Architecture |
-| 🐳 Docker | Containerization |
-| ☁️ Cloud | Deployment & Infrastructure |
-| ⚛️ React | Advanced Frontend |
-| 🗄️ SQL | Database Optimization |
-
-</div>
-
----
-
-# 🎯 2026 Goals
-
-```text
-☐ Become stronger in Java & DSA
-
-☐ Build production-quality Full Stack applications
-
-☐ Learn Spring Boot deeply
-
-☐ Make meaningful Open Source contributions
-
-☐ Improve System Design knowledge
-
-☐ Learn Docker & Cloud deployment
-
-☐ Build and deploy more real-world projects
-
-☐ Secure a Software Engineering Internship
-```
-
----
-
-<!-- # 🤝 Let's Connect
-
-I'm always interested in connecting with developers, students, open-source contributors, and people building interesting things.
-
-<div align="center">
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://leetcode.com/YOUR_LEETCODE/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
-
-</div>
-
---- -->
-
-# 💬 Developer Philosophy
-
-<div align="center">
-
-### *"First, solve the problem. Then, write the code."*
-
-— John Johnson
-
-</div>
-
----
-
-<div align="center">
-
-### Thanks for visiting my profile! 👋
-
-**Learn • Build • Contribute • Improve**
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:7C3AED,50:172554,100:0D1117"/>
-
-</div>
+<p align="center">
+  ⭐ Thanks for visiting my profile!
+</p>
