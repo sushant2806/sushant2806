@@ -287,7 +287,7 @@ Linux
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=sushant2406&theme=github-dark-blue&hide_border=true"
+    src="https://streak-stats.demolab.com?user=sushant2806&theme=github-dark-blue&hide_border=true"
     width="100%"
     alt="GitHub Streak"
   />
