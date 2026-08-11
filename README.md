@@ -44,7 +44,6 @@ src="https://img.shields.io/badge/GitHub-sushant2806-181717?style=for-the-badge&
 alt="GitHub"
 />
 </a>
-
 <a href="https://www.linkedin.com/in/sushantkumar6">
 <img
 src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
