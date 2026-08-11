@@ -36,27 +36,11 @@ creativity, engineering, and continuous learning.
 🤝 <b>Open Source</b>
 </p>
 
-<br>
-
-<a href="https://github.com/sushant2806">
-<img
-src="https://img.shields.io/badge/GitHub-sushant2806-181717?style=for-the-badge&logo=github&logoColor=white"
-alt="GitHub"
-/>
-</a>
-<a href="https://www.linkedin.com/in/sushantkumar6">
-<img
-src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-alt="LinkedIn"
-/>
-</a>
-
 </td>
-
 
 <!-- ================= RIGHT SIDE ================= -->
 
-<td width="52%" align="center" valign="middle">
+<td width="60%" align="center" valign="middle">
 
 <img
   src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81bb4b165684019.640b6038d133e.gif"
@@ -303,7 +287,7 @@ Linux
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=Utkrisht-Utpal&theme=github-dark-blue&hide_border=true"
+    src="https://streak-stats.demolab.com?user=sushant2406&theme=github-dark-blue&hide_border=true"
     width="100%"
     alt="GitHub Streak"
   />
@@ -311,7 +295,7 @@ Linux
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Utkrisht-Utpal&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF&area=true&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=sushant2806&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF&area=true&hide_border=true"
     width="100%"
     alt="GitHub Activity Graph"
   />
@@ -323,15 +307,15 @@ Linux
 
 <p align="center">
 
-<a href="https://twitter.com/no_thing64">
+<a href="twitter">
   <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
 </a>
 
-<a href="https://linkedin.com/in/utkrisht-utpal">
+<a href="https://linkedin.com/in/sushantkumar6">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="https://leetcode.com/u/utpal_pro/">
+<a href="https://leetcode.com/u/Kumar-Sushant/">
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
 </a>
 
@@ -343,15 +327,11 @@ Linux
 
 <p align="center">
 
-<a href="https://utkrishts-portfolio.webflow.io/">
+<a href="portfolio">
   <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 
-<a href="https://techdosecentral.blogspot.com/">
-  <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" />
-</a>
-
-<a href="https://1drv.ms/w/c/8641eff74dde96ef/IQApL_NwVo2MQYe9FSK_afNkAc5IYHi3myhcQsiY6eGzVSM?e=QKjZwJ">
+<a href="Resume">
   <img src="https://img.shields.io/badge/Resume-0078D4?style=for-the-badge&logo=microsoftword&logoColor=white" />
 </a>
 
