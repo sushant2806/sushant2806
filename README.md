@@ -1,22 +1,12 @@
 <div align="center">
 
-### ⚡ Building. Learning. Shipping.
+<img
+src="./assets/hero.svg"
+width="100%"
+alt="Sushant Kumar - Full Stack Developer"
+/>
 
 </div>
-
-<p align="center">
-
-<a href="#-about-me">About</a>
-&nbsp; • &nbsp;
-<a href="#-tech-stack">Tech Stack</a>
-&nbsp; • &nbsp;
-<a href="#-featured-projects">Projects</a>
-&nbsp; • &nbsp;
-<a href="#-github-analytics">Analytics</a>
-&nbsp; • &nbsp;
-<a href="#-connect-with-me">Contact</a>
-
-</p>
 <!-- ========================= HERO ========================= -->
 
 <!-- <table width="100%" cellspacing="0" cellpadding="0">
