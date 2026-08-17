@@ -1,15 +1,34 @@
+<div align="center">
+
+### ⚡ Building. Learning. Shipping.
+
+</div>
+
+<p align="center">
+
+<a href="#-about-me">About</a>
+&nbsp; • &nbsp;
+<a href="#-tech-stack">Tech Stack</a>
+&nbsp; • &nbsp;
+<a href="#-featured-projects">Projects</a>
+&nbsp; • &nbsp;
+<a href="#-github-analytics">Analytics</a>
+&nbsp; • &nbsp;
+<a href="#-connect-with-me">Contact</a>
+
+</p>
 <!-- ========================= HERO ========================= -->
 
-<table width="100%" cellspacing="0" cellpadding="0">
-<tr>
+<!-- <table width="100%" cellspacing="0" cellpadding="0">
+<tr> -->
 
 <!-- ================= LEFT SIDE ================= -->
 
-<td width="48%" valign="middle">
+<!-- <td width="48%" valign="middle"> -->
 
 <!-- Animated Name Banner -->
 
-<img
+<!-- <img
 src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0D1117,45:172554,100:6D28D9&text=Sushant%20Kumar&fontSize=42&fontColor=FFFFFF&fontAlign=50&fontAlignY=48&animation=fadeIn"
 width="100%"
 alt="Sushant Kumar"
@@ -36,11 +55,11 @@ creativity, engineering, and continuous learning.
 🤝 <b>Open Source</b>
 </p>
 
-</td>
+</td> -->
 
 <!-- ================= RIGHT SIDE ================= -->
 
-<td width="60%" align="center" valign="middle">
+<!-- <td width="60%" align="center" valign="middle">
 
 <img
   src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81bb4b165684019.640b6038d133e.gif"
@@ -51,7 +70,7 @@ creativity, engineering, and continuous learning.
 </td>
 
 </tr>
-</table>
+</table> -->
 
 <!-- ======================= END HERO ======================= -->
 
