@@ -1,12 +1,4 @@
-<div align="center">
 
-<img
-src="./assets/hero.svg"
-width="100%"
-alt="Sushant Kumar - Full Stack Developer"
-/>
-
-</div>
 <!-- ========================= HERO ========================= -->
 
 <!-- <table width="100%" cellspacing="0" cellpadding="0">
