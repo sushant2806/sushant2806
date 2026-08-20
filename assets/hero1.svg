@@ -3,627 +3,929 @@
      height="500"
      viewBox="0 0 1200 500">
 
-<defs>
+  <defs>
 
-  <linearGradient id="bg"
-                  x1="0%"
-                  y1="0%"
-                  x2="100%"
-                  y2="100%">
+    <!-- Background -->
+    <linearGradient id="bg"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1e0b3d"/>
 
-    <stop offset="0%" stop-color="#050816"/>
-    <stop offset="50%" stop-color="#111827"/>
-    <stop offset="100%" stop-color="#1e0b3d"/>
+      <animate
+        attributeName="x1"
+        values="0%;25%;0%"
+        dur="12s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+
+    <!-- Neon gradient -->
+    <linearGradient id="neon"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
+
+      <stop offset="0%" stop-color="#22d3ee">
+        <animate
+          attributeName="stop-color"
+          values="#22d3ee;#818cf8;#c084fc;#22d3ee"
+          dur="8s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="50%" stop-color="#8b5cf6">
+        <animate
+          attributeName="stop-color"
+          values="#8b5cf6;#ec4899;#22d3ee;#8b5cf6"
+          dur="8s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#ec4899">
+        <animate
+          attributeName="stop-color"
+          values="#ec4899;#22d3ee;#818cf8;#ec4899"
+          dur="8s"
+          repeatCount="indefinite"/>
+      </stop>
+
+    </linearGradient>
+
+
+    <!-- Grid -->
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+
+      <path
+        d="M40 0H0V40"
+        fill="none"
+        stroke="#94a3b8"
+        stroke-opacity="0.045"
+        stroke-width="1"/>
+
+    </pattern>
+
+  </defs>
+
+
+  <!-- =====================================================
+       BACKGROUND
+  ====================================================== -->
+
+  <rect
+    width="1200"
+    height="500"
+    rx="28"
+    fill="url(#bg)"/>
+
+
+  <!-- =====================================================
+       AURORA GLOW
+  ====================================================== -->
+
+  <ellipse
+    cx="160"
+    cy="55"
+    rx="290"
+    ry="135"
+    fill="#06b6d4"
+    opacity="0.13">
 
     <animate
-      attributeName="x1"
-      values="0%;30%;0%"
+      attributeName="cx"
+      values="160;350;160"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="cy"
+      values="55;95;55"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+
+  <ellipse
+    cx="1040"
+    cy="430"
+    rx="320"
+    ry="160"
+    fill="#8b5cf6"
+    opacity="0.15">
+
+    <animate
+      attributeName="cx"
+      values="1040;890;1040"
       dur="12s"
       repeatCount="indefinite"/>
 
-  </linearGradient>
-
-  <linearGradient id="accent"
-                  x1="0%"
-                  y1="0%"
-                  x2="100%"
-                  y2="0%">
-
-    <stop offset="0%" stop-color="#22d3ee"/>
-    <stop offset="50%" stop-color="#8b5cf6"/>
-    <stop offset="100%" stop-color="#ec4899"/>
-
     <animate
-      attributeName="x1"
-      values="0%;100%;0%"
-      dur="8s"
+      attributeName="cy"
+      values="430;370;430"
+      dur="12s"
       repeatCount="indefinite"/>
 
-  </linearGradient>
+  </ellipse>
+
 
-  <pattern id="grid"
-           width="40"
-           height="40"
-           patternUnits="userSpaceOnUse">
+  <circle
+    cx="850"
+    cy="90"
+    r="100"
+    fill="#ec4899"
+    opacity="0.055">
 
-    <path
-      d="M40 0H0V40"
-      fill="none"
-      stroke="#ffffff"
-      stroke-opacity="0.045"
-      stroke-width="1"/>
+    <animate
+      attributeName="r"
+      values="100;135;100"
+      dur="7s"
+      repeatCount="indefinite"/>
 
-  </pattern>
+  </circle>
 
-</defs>
 
+  <!-- =====================================================
+       GRID
+  ====================================================== -->
 
-<!-- BACKGROUND -->
+  <rect
+    width="1200"
+    height="500"
+    fill="url(#grid)"/>
 
-<rect
-  width="1200"
-  height="500"
-  rx="28"
-  fill="url(#bg)"/>
 
+  <!-- =====================================================
+       FLOATING PARTICLES
+  ====================================================== -->
 
-<!-- GLOWING AURORA -->
+  <circle
+    cx="105"
+    cy="170"
+    r="2"
+    fill="#67e8f9">
 
-<ellipse
-  cx="150"
-  cy="50"
-  rx="280"
-  ry="120"
-  fill="#06b6d4"
-  opacity="0.12">
+    <animate
+      attributeName="cy"
+      values="170;135;170"
+      dur="4s"
+      repeatCount="indefinite"/>
 
-  <animate
-    attributeName="cx"
-    values="150;350;150"
-    dur="10s"
-    repeatCount="indefinite"/>
+    <animate
+      attributeName="opacity"
+      values="0.2;1;0.2"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle
+    cx="315"
+    cy="95"
+    r="1.5"
+    fill="#c084fc">
+
+    <animate
+      attributeName="cy"
+      values="95;65;95"
+      dur="5s"
+      repeatCount="indefinite"/>
 
-</ellipse>
+  </circle>
 
 
-<ellipse
-  cx="1050"
-  cy="430"
-  rx="300"
-  ry="150"
-  fill="#8b5cf6"
-  opacity="0.14">
+  <circle
+    cx="1080"
+    cy="180"
+    r="2"
+    fill="#67e8f9">
+
+    <animate
+      attributeName="cy"
+      values="180;215;180"
+      dur="5s"
+      repeatCount="indefinite"/>
 
-  <animate
-    attributeName="cx"
-    values="1050;900;1050"
-    dur="12s"
-    repeatCount="indefinite"/>
+    <animate
+      attributeName="opacity"
+      values="0.2;1;0.2"
+      dur="5s"
+      repeatCount="indefinite"/>
 
-</ellipse>
+  </circle>
 
+
+  <circle
+    cx="1030"
+    cy="350"
+    r="1.5"
+    fill="#ec4899">
 
-<!-- GRID -->
+    <animate
+      attributeName="cy"
+      values="350;315;350"
+      dur="4s"
+      repeatCount="indefinite"/>
 
-<rect
-  width="1200"
-  height="500"
-  fill="url(#grid)"/>
+  </circle>
 
 
-<!-- GLASS CARD -->
+  <circle
+    cx="145"
+    cy="390"
+    r="1.5"
+    fill="#818cf8">
 
-<rect
-  x="45"
-  y="35"
-  width="1110"
-  height="430"
-  rx="25"
-  fill="#ffffff"
-  fill-opacity="0.045"
-  stroke="#ffffff"
-  stroke-opacity="0.15"
-  stroke-width="1"/>
+    <animate
+      attributeName="cy"
+      values="390;420;390"
+      dur="6s"
+      repeatCount="indefinite"/>
 
+  </circle>
 
-<!-- ANIMATED BORDER -->
 
-<rect
-  x="45"
-  y="35"
-  width="1110"
-  height="430"
-  rx="25"
-  fill="none"
-  stroke="url(#accent)"
-  stroke-width="2">
+  <!-- =====================================================
+       NETWORK LINES
+  ====================================================== -->
 
-  <animate
-    attributeName="opacity"
-    values="0.35;1;0.35"
-    dur="4s"
-    repeatCount="indefinite"/>
+  <g
+    stroke="url(#neon)"
+    stroke-width="1"
+    stroke-opacity="0.20">
 
-</rect>
+    <line
+      x1="75"
+      y1="120"
+      x2="190"
+      y2="180"/>
 
+    <line
+      x1="190"
+      y1="180"
+      x2="110"
+      y2="310"/>
 
-<!-- WINDOW CONTROLS -->
+    <line
+      x1="1070"
+      y1="120"
+      x2="950"
+      y2="190"/>
 
-<circle
-  cx="75"
-  cy="70"
-  r="6"
-  fill="#ef4444"/>
+    <line
+      x1="950"
+      y1="190"
+      x2="1090"
+      y2="320"/>
 
-<circle
-  cx="97"
-  cy="70"
-  r="6"
-  fill="#eab308"/>
+    <line
+      x1="1090"
+      y1="320"
+      x2="1000"
+      y2="430"/>
+
+  </g>
 
-<circle
-  cx="119"
-  cy="70"
-  r="6"
-  fill="#22c55e"/>
+
+  <!-- Network nodes -->
+
+  <circle
+    cx="75"
+    cy="120"
+    r="3"
+    fill="#22d3ee">
 
+    <animate
+      attributeName="r"
+      values="2;5;2"
+      dur="3s"
+      repeatCount="indefinite"/>
 
-<!-- TERMINAL TITLE -->
+  </circle>
+
 
-<text
-  x="600"
-  y="75"
-  text-anchor="middle"
-  fill="#64748b"
-  font-family="monospace"
-  font-size="13">
+  <circle
+    cx="190"
+    cy="180"
+    r="3"
+    fill="#8b5cf6">
 
-sushant@github ~ / developer
+    <animate
+      attributeName="r"
+      values="2;5;2"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+  </circle>
 
-</text>
+
+  <circle
+    cx="110"
+    cy="310"
+    r="3"
+    fill="#22d3ee"/>
+
+
+  <circle
+    cx="1070"
+    cy="120"
+    r="3"
+    fill="#ec4899"/>
 
 
-<!-- STATUS -->
+  <circle
+    cx="950"
+    cy="190"
+    r="3"
+    fill="#8b5cf6">
 
-<circle
-  cx="1080"
-  cy="70"
-  r="5"
-  fill="#22c55e">
+    <animate
+      attributeName="r"
+      values="2;5;2"
+      dur="3.5s"
+      repeatCount="indefinite"/>
 
-  <animate
-    attributeName="opacity"
-    values="0.25;1;0.25"
-    dur="2s"
-    repeatCount="indefinite"/>
+  </circle>
 
-</circle>
 
+  <circle
+    cx="1090"
+    cy="320"
+    r="3"
+    fill="#22d3ee"/>
 
-<text
-  x="1060"
-  y="75"
-  text-anchor="end"
-  fill="#64748b"
-  font-family="Arial"
-  font-size="11">
 
-ONLINE
+  <!-- =====================================================
+       GLASS CARD
+  ====================================================== -->
 
-</text>
+  <rect
+    x="45"
+    y="35"
+    width="1110"
+    height="430"
+    rx="28"
+    fill="#ffffff"
+    fill-opacity="0.045"
+    stroke="#ffffff"
+    stroke-opacity="0.14"
+    stroke-width="1"/>
 
 
-<!-- TERMINAL PROMPT -->
+  <!-- Animated neon border -->
 
-<text
-  x="95"
-  y="135"
-  fill="#64748b"
-  font-family="monospace"
-  font-size="14">
+  <rect
+    x="45"
+    y="35"
+    width="1110"
+    height="430"
+    rx="28"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="2">
 
-&gt; whoami
+    <animate
+      attributeName="opacity"
+      values="0.35;0.95;0.35"
+      dur="4s"
+      repeatCount="indefinite"/>
 
-</text>
+  </rect>
 
 
-<!-- NAME -->
+  <!-- =====================================================
+       TERMINAL HEADER
+  ====================================================== -->
 
-<text
-  x="95"
-  y="190"
-  fill="#ffffff"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="52"
-  font-weight="700">
+  <circle
+    cx="78"
+    cy="70"
+    r="6"
+    fill="#ef4444"/>
 
-Sushant Kumar
+  <circle
+    cx="100"
+    cy="70"
+    r="6"
+    fill="#eab308"/>
 
-</text>
+  <circle
+    cx="122"
+    cy="70"
+    r="6"
+    fill="#22c55e"/>
 
 
-<!-- ROLE -->
+  <text
+    x="600"
+    y="75"
+    text-anchor="middle"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="13">
 
-<text
-  x="95"
-  y="230"
-  fill="#67e8f9"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="21"
-  font-weight="600"
-  letter-spacing="3">
+    sushant@github ~ / developer
 
-FULL STACK DEVELOPER
+  </text>
 
-</text>
 
+  <!-- Online indicator -->
 
-<!-- DESCRIPTION -->
+  <circle
+    cx="1080"
+    cy="70"
+    r="5"
+    fill="#22c55e">
 
-<text
-  x="95"
-  y="275"
-  fill="#cbd5e1"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="17">
+    <animate
+      attributeName="opacity"
+      values="0.25;1;0.25"
+      dur="2s"
+      repeatCount="indefinite"/>
 
-Building scalable applications, developer tools
+  </circle>
 
-</text>
 
-<text
-  x="95"
-  y="302"
-  fill="#cbd5e1"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="17">
+  <text
+    x="1065"
+    y="75"
+    text-anchor="end"
+    fill="#64748b"
+    font-family="Arial"
+    font-size="11">
 
-and AI-powered solutions for real-world problems.
+    ONLINE
 
-</text>
+  </text>
 
 
-<!-- TERMINAL CODE -->
+  <!-- =====================================================
+       LEFT SIDE
+  ====================================================== -->
 
-<rect
-  x="650"
-  y="125"
-  width="425"
-  height="190"
-  rx="18"
-  fill="#020617"
-  fill-opacity="0.65"
-  stroke="#ffffff"
-  stroke-opacity="0.10"/>
+  <text
+    x="95"
+    y="130"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="14">
 
+    &gt; whoami
 
-<text
-  x="675"
-  y="155"
-  fill="#64748b"
-  font-family="monospace"
-  font-size="12">
+  </text>
 
-developer.ts
 
-</text>
+  <text
+    x="95"
+    y="190"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="52"
+    font-weight="700">
 
+    Sushant Kumar
 
-<text
-  x="675"
-  y="185"
-  fill="#c084fc"
-  font-family="monospace"
-  font-size="14">
+  </text>
 
-const
 
-</text>
+  <text
+    x="95"
+    y="230"
+    fill="#67e8f9"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="21"
+    font-weight="600"
+    letter-spacing="3">
 
-<text
-  x="720"
-  y="185"
-  fill="#67e8f9"
-  font-family="monospace"
-  font-size="14">
+    FULL STACK DEVELOPER
 
-developer
+  </text>
 
-</text>
 
-<text
-  x="805"
-  y="185"
-  fill="#ffffff"
-  font-family="monospace"
-  font-size="14">
+  <text
+    x="95"
+    y="275"
+    fill="#cbd5e1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17">
 
-=
+    Building scalable applications, developer tools
 
-</text>
+  </text>
 
-<text
-  x="820"
-  y="185"
-  fill="#fbbf24"
-  font-family="monospace"
-  font-size="14">
 
-{
+  <text
+    x="95"
+    y="302"
+    fill="#cbd5e1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17">
 
-</text>
+    and AI-powered solutions for real-world problems.
 
+  </text>
 
-<text
-  x="695"
-  y="215"
-  fill="#94a3b8"
-  font-family="monospace"
-  font-size="13">
 
-stack:
+  <!-- =====================================================
+       TERMINAL CODE WINDOW
+  ====================================================== -->
 
-</text>
+  <rect
+    x="650"
+    y="120"
+    width="425"
+    height="195"
+    rx="18"
+    fill="#020617"
+    fill-opacity="0.72"
+    stroke="#ffffff"
+    stroke-opacity="0.10"/>
 
-<text
-  x="750"
-  y="215"
-  fill="#86efac"
-  font-family="monospace"
-  font-size="13">
 
-"React + Node + TypeScript"
+  <!-- Terminal title -->
 
-</text>
+  <text
+    x="675"
+    y="150"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="12">
 
+    developer.ts
 
-<text
-  x="695"
-  y="245"
-  fill="#94a3b8"
-  font-family="monospace"
-  font-size="13">
+  </text>
 
-focus:
 
-</text>
+  <!-- Code -->
 
-<text
-  x="750"
-  y="245"
-  fill="#86efac"
-  font-family="monospace"
-  font-size="13">
+  <text
+    x="675"
+    y="180"
+    fill="#c084fc"
+    font-family="monospace"
+    font-size="14">
 
-"AI + Web + Developer Tools"
+    const
 
-</text>
+  </text>
 
 
-<text
-  x="695"
-  y="275"
-  fill="#94a3b8"
-  font-family="monospace"
-  font-size="13">
+  <text
+    x="720"
+    y="180"
+    fill="#67e8f9"
+    font-family="monospace"
+    font-size="14">
 
-status:
+    developer
 
-</text>
+  </text>
 
-<text
-  x="750"
-  y="275"
-  fill="#86efac"
-  font-family="monospace"
-  font-size="13">
 
-"building..."
+  <text
+    x="805"
+    y="180"
+    fill="#ffffff"
+    font-family="monospace"
+    font-size="14">
 
-</text>
+    =
 
+  </text>
 
-<text
-  x="675"
-  y="300"
-  fill="#fbbf24"
-  font-family="monospace"
-  font-size="14">
 
-};
+  <text
+    x="820"
+    y="180"
+    fill="#fbbf24"
+    font-family="monospace"
+    font-size="14">
 
-</text>
+    {
 
+  </text>
 
-<!-- TECHNOLOGY PILLS -->
 
-<rect
-  x="95"
-  y="340"
-  width="120"
-  height="38"
-  rx="19"
-  fill="#ffffff"
-  fill-opacity="0.05"
-  stroke="#22d3ee"
-  stroke-opacity="0.25"/>
+  <text
+    x="695"
+    y="210"
+    fill="#94a3b8"
+    font-family="monospace"
+    font-size="13">
 
-<text
-  x="155"
-  y="365"
-  text-anchor="middle"
-  fill="#bae6fd"
-  font-family="Arial"
-  font-size="14">
+    stack:
 
-React
+  </text>
 
-</text>
 
+  <text
+    x="750"
+    y="210"
+    fill="#86efac"
+    font-family="monospace"
+    font-size="13">
 
-<rect
-  x="230"
-  y="340"
-  width="120"
-  height="38"
-  rx="19"
-  fill="#ffffff"
-  fill-opacity="0.05"
-  stroke="#818cf8"
-  stroke-opacity="0.25"/>
+    "React + Node + TypeScript"
 
-<text
-  x="290"
-  y="365"
-  text-anchor="middle"
-  fill="#c7d2fe"
-  font-family="Arial"
-  font-size="14">
+  </text>
 
-Next.js
 
-</text>
+  <text
+    x="695"
+    y="240"
+    fill="#94a3b8"
+    font-family="monospace"
+    font-size="13">
 
+    focus:
 
-<rect
-  x="365"
-  y="340"
-  width="120"
-  height="38"
-  rx="19"
-  fill="#ffffff"
-  fill-opacity="0.05"
-  stroke="#c084fc"
-  stroke-opacity="0.25"/>
+  </text>
 
-<text
-  x="425"
-  y="365"
-  text-anchor="middle"
-  fill="#e9d5ff"
-  font-family="Arial"
-  font-size="14">
 
-TypeScript
+  <text
+    x="750"
+    y="240"
+    fill="#86efac"
+    font-family="monospace"
+    font-size="13">
 
-</text>
+    "AI + Web + Developer Tools"
 
+  </text>
 
-<rect
-  x="500"
-  y="340"
-  width="120"
-  height="38"
-  rx="19"
-  fill="#ffffff"
-  fill-opacity="0.05"
-  stroke="#86efac"
-  stroke-opacity="0.25"/>
 
-<text
-  x="560"
-  y="365"
-  text-anchor="middle"
-  fill="#bbf7d0"
-  font-family="Arial"
-  font-size="14">
+  <text
+    x="695"
+    y="270"
+    fill="#94a3b8"
+    font-family="monospace"
+    font-size="13">
 
-Node.js
+    status:
 
-</text>
+  </text>
 
 
-<!-- BOTTOM CARDS -->
+  <text
+    x="750"
+    y="270"
+    fill="#86efac"
+    font-family="monospace"
+    font-size="13">
 
-<rect
-  x="95"
-  y="405"
-  width="250"
-  height="42"
-  rx="14"
-  fill="#ffffff"
-  fill-opacity="0.04"/>
+    "building..."
 
-<text
-  x="115"
-  y="431"
-  fill="#22d3ee"
-  font-family="Arial"
-  font-size="13">
+  </text>
 
-● OPEN SOURCE
 
-</text>
+  <text
+    x="675"
+    y="300"
+    fill="#fbbf24"
+    font-family="monospace"
+    font-size="14">
 
+    };
 
-<rect
-  x="365"
-  y="405"
-  width="250"
-  height="42"
-  rx="14"
-  fill="#ffffff"
-  fill-opacity="0.04"/>
+  </text>
 
-<text
-  x="385"
-  y="431"
-  fill="#a78bfa"
-  font-family="Arial"
-  font-size="13">
 
-◆ AI & DEVELOPER TOOLS
+  <!-- Blinking cursor -->
 
-</text>
+  <rect
+    x="695"
+    y="305"
+    width="8"
+    height="14"
+    fill="#22d3ee">
 
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
 
-<rect
-  x="635"
-  y="405"
-  width="250"
-  height="42"
-  rx="14"
-  fill="#ffffff"
-  fill-opacity="0.04"/>
+  </rect>
 
-<text
-  x="655"
-  y="431"
-  fill="#f472b6"
-  font-family="Arial"
-  font-size="13">
 
-◆ PROBLEM SOLVER
+  <!-- =====================================================
+       TECHNOLOGY PILLS
+  ====================================================== -->
 
-</text>
+  <text
+    x="95"
+    y="350"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="13">
 
+    // technologies
 
-<!-- FOOTER -->
+  </text>
 
-<text
-  x="600"
-  y="455"
-  text-anchor="middle"
-  fill="#475569"
-  font-family="monospace"
-  font-size="11"
-  letter-spacing="4">
 
-CODE • CREATE • LEARN • REPEAT
+  <!-- React -->
 
-</text>
+  <rect
+    x="95"
+    y="365"
+    width="120"
+    height="38"
+    rx="19"
+    fill="#ffffff"
+    fill-opacity="0.05"
+    stroke="#22d3ee"
+    stroke-opacity="0.30"/>
 
 
-<!-- OUTER BORDER -->
+  <text
+    x="155"
+    y="390"
+    text-anchor="middle"
+    fill="#bae6fd"
+    font-family="Arial"
+    font-size="14">
 
-<rect
-  x="1"
-  y="1"
-  width="1198"
-  height="498"
-  rx="28"
-  fill="none"
-  stroke="#334155"
-  stroke-width="2"/>
+    React
+
+  </text>
+
+
+  <!-- Next -->
+
+  <rect
+    x="230"
+    y="365"
+    width="120"
+    height="38"
+    rx="19"
+    fill="#ffffff"
+    fill-opacity="0.05"
+    stroke="#818cf8"
+    stroke-opacity="0.30"/>
+
+
+  <text
+    x="290"
+    y="390"
+    text-anchor="middle"
+    fill="#c7d2fe"
+    font-family="Arial"
+    font-size="14">
+
+    Next.js
+
+  </text>
+
+
+  <!-- TypeScript -->
+
+  <rect
+    x="365"
+    y="365"
+    width="120"
+    height="38"
+    rx="19"
+    fill="#ffffff"
+    fill-opacity="0.05"
+    stroke="#c084fc"
+    stroke-opacity="0.30"/>
+
+
+  <text
+    x="425"
+    y="390"
+    text-anchor="middle"
+    fill="#e9d5ff"
+    font-family="Arial"
+    font-size="14">
+
+    TypeScript
+
+  </text>
+
+
+  <!-- Node -->
+
+  <rect
+    x="500"
+    y="365"
+    width="120"
+    height="38"
+    rx="19"
+    fill="#ffffff"
+    fill-opacity="0.05"
+    stroke="#86efac"
+    stroke-opacity="0.30"/>
+
+
+  <text
+    x="560"
+    y="390"
+    text-anchor="middle"
+    fill="#bbf7d0"
+    font-family="Arial"
+    font-size="14">
+
+    Node.js
+
+  </text>
+
+
+  <!-- =====================================================
+       BOTTOM CARDS
+  ====================================================== -->
+
+  <rect
+    x="95"
+    y="420"
+    width="250"
+    height="35"
+    rx="13"
+    fill="#ffffff"
+    fill-opacity="0.04"/>
+
+
+  <text
+    x="115"
+    y="443"
+    fill="#22d3ee"
+    font-family="Arial"
+    font-size="12">
+
+    ● OPEN SOURCE
+
+  </text>
+
+
+  <rect
+    x="365"
+    y="420"
+    width="250"
+    height="35"
+    rx="13"
+    fill="#ffffff"
+    fill-opacity="0.04"/>
+
+
+  <text
+    x="385"
+    y="443"
+    fill="#a78bfa"
+    font-family="Arial"
+    font-size="12">
+
+    ◆ AI + DEVELOPER TOOLS
+
+  </text>
+
+
+  <rect
+    x="635"
+    y="420"
+    width="250"
+    height="35"
+    rx="13"
+    fill="#ffffff"
+    fill-opacity="0.04"/>
+
+
+  <text
+    x="655"
+    y="443"
+    fill="#f472b6"
+    font-family="Arial"
+    font-size="12">
+
+    ◆ PROBLEM SOLVER
+
+  </text>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <text
+    x="1010"
+    y="443"
+    text-anchor="middle"
+    fill="#475569"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="2">
+
+    CODE • CREATE • LEARN
+
+  </text>
+
 
 </svg>
