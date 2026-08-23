@@ -5,6 +5,9 @@
     alt="Sushant Kumar - Full Stack Developer"
   />
 </p>
+
+---
+
 <!-- ========================= HERO ========================= -->
 
 <!-- <table width="100%" cellspacing="0" cellpadding="0">
