@@ -9,150 +9,124 @@
          BACKGROUND
     ====================================================== -->
 
-    <linearGradient id="bg"
-                    x1="0"
-                    y1="0"
-                    x2="1"
-                    y2="1">
-
-      <stop offset="0%" stop-color="#030712"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
       <stop offset="45%" stop-color="#071225"/>
-      <stop offset="100%" stop-color="#170B2D"/>
-
+      <stop offset="100%" stop-color="#180B32"/>
     </linearGradient>
-
 
     <!-- =====================================================
-         ANIMATED AURORA
+         AURORA
     ====================================================== -->
 
-    <linearGradient id="aurora"
-                    x1="0"
-                    y1="0"
-                    x2="1"
-                    y2="0">
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
 
-      <stop offset="0%" stop-color="#06B6D4">
-
+      <stop offset="0%" stop-color="#22D3EE">
         <animate
           attributeName="stop-color"
-          values="#06B6D4;#6366F1;#A855F7;#06B6D4"
-          dur="10s"
+          values="#22D3EE;#6366F1;#C084FC;#22D3EE"
+          dur="12s"
           repeatCount="indefinite"/>
-
       </stop>
-
 
       <stop offset="50%" stop-color="#6366F1">
-
         <animate
           attributeName="stop-color"
-          values="#6366F1;#A855F7;#06B6D4;#6366F1"
-          dur="10s"
+          values="#6366F1;#C084FC;#22D3EE;#6366F1"
+          dur="12s"
           repeatCount="indefinite"/>
-
       </stop>
 
-
-      <stop offset="100%" stop-color="#A855F7">
-
+      <stop offset="100%" stop-color="#C084FC">
         <animate
           attributeName="stop-color"
-          values="#A855F7;#06B6D4;#6366F1;#A855F7"
-          dur="10s"
+          values="#C084FC;#22D3EE;#6366F1;#C084FC"
+          dur="12s"
           repeatCount="indefinite"/>
-
       </stop>
 
     </linearGradient>
-
 
     <!-- =====================================================
          GLASS
     ====================================================== -->
 
-    <linearGradient id="glass"
-                    x1="0"
-                    y1="0"
-                    x2="1"
-                    y2="1">
-
-      <stop offset="0%"
-            stop-color="#FFFFFF"
-            stop-opacity="0.105"/>
-
-      <stop offset="100%"
-            stop-color="#FFFFFF"
-            stop-opacity="0.025"/>
-
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".025"/>
     </linearGradient>
-
 
     <!-- =====================================================
          GRID
     ====================================================== -->
 
     <pattern id="grid"
-             width="42"
-             height="42"
+             width="40"
+             height="40"
              patternUnits="userSpaceOnUse">
 
       <path
-        d="M42 0H0V42"
+        d="M40 0H0V40"
         fill="none"
         stroke="#94A3B8"
-        stroke-opacity="0.045"
-        stroke-width="1"/>
+        stroke-opacity=".045"/>
 
     </pattern>
 
-
     <!-- =====================================================
-         LARGE GLOW
+         GLOWS
     ====================================================== -->
 
-    <filter id="glow">
+    <filter id="glow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
 
-      <feGaussianBlur
-        stdDeviation="35"/>
+      <feGaussianBlur stdDeviation="35"/>
 
     </filter>
 
+    <filter id="smallGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
 
-    <!-- =====================================================
-         SMALL GLOW
-    ====================================================== -->
-
-    <filter id="smallGlow">
-
-      <feGaussianBlur
-        stdDeviation="5"/>
+      <feGaussianBlur stdDeviation="6"/>
 
     </filter>
 
+    <filter id="tinyGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+
+      <feGaussianBlur stdDeviation="3"/>
+
+    </filter>
 
     <!-- =====================================================
          CLIP
     ====================================================== -->
 
     <clipPath id="clip">
-
       <rect
-        width="1200"
-        height="560"
+        x="20"
+        y="20"
+        width="1160"
+        height="520"
         rx="30"/>
-
     </clipPath>
 
   </defs>
 
-
-  <!-- =======================================================
+  <!-- =====================================================
        MAIN SCENE
-  ======================================================== -->
+  ====================================================== -->
 
   <g clip-path="url(#clip)">
-
 
     <!-- =====================================================
          BACKGROUND
@@ -163,77 +137,79 @@
       height="560"
       fill="url(#bg)"/>
 
-
     <!-- =====================================================
-         CYAN AURORA
+         MOVING AURORA LEFT
     ====================================================== -->
 
     <ellipse
-      cx="130"
+      cx="120"
       cy="70"
-      rx="280"
-      ry="150"
+      rx="300"
+      ry="170"
       fill="#06B6D4"
-      opacity="0.08"
+      opacity=".08"
       filter="url(#glow)">
 
       <animate
         attributeName="cx"
-        values="130;300;130"
-        dur="12s"
+        values="120;300;120"
+        dur="14s"
         repeatCount="indefinite"/>
 
       <animate
         attributeName="cy"
-        values="70;130;70"
-        dur="12s"
-        repeatCount="indefinite"/>
-
-    </ellipse>
-
-
-    <!-- =====================================================
-         PURPLE AURORA
-    ====================================================== -->
-
-    <ellipse
-      cx="1060"
-      cy="460"
-      rx="300"
-      ry="180"
-      fill="#8B5CF6"
-      opacity="0.10"
-      filter="url(#glow)">
-
-      <animate
-        attributeName="cx"
-        values="1060;900;1060"
+        values="70;140;70"
         dur="14s"
         repeatCount="indefinite"/>
 
     </ellipse>
 
+    <!-- =====================================================
+         MOVING AURORA RIGHT
+    ====================================================== -->
+
+    <ellipse
+      cx="1080"
+      cy="460"
+      rx="340"
+      ry="200"
+      fill="#8B5CF6"
+      opacity=".11"
+      filter="url(#glow)">
+
+      <animate
+        attributeName="cx"
+        values="1080;900;1080"
+        dur="16s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="cy"
+        values="460;390;460"
+        dur="16s"
+        repeatCount="indefinite"/>
+
+    </ellipse>
 
     <!-- =====================================================
-         PINK AURORA
+         PINK AMBIENT GLOW
     ====================================================== -->
 
     <circle
       cx="920"
-      cy="90"
+      cy="85"
       r="120"
       fill="#EC4899"
-      opacity="0.045"
+      opacity=".045"
       filter="url(#glow)">
 
       <animate
         attributeName="r"
-        values="120;165;120"
-        dur="8s"
+        values="120;170;120"
+        dur="9s"
         repeatCount="indefinite"/>
 
     </circle>
-
 
     <!-- =====================================================
          GRID
@@ -244,275 +220,232 @@
       height="560"
       fill="url(#grid)"/>
 
-
     <!-- =====================================================
-         CIRCUIT LINES
+         CIRCUIT NETWORK
     ====================================================== -->
 
     <g
       fill="none"
       stroke="url(#aurora)"
       stroke-width="1"
-      opacity="0.25">
+      opacity=".28">
 
-
-      <path
-        d="M0 155 H120 V205 H190"/>
-
-
-      <path
-        d="M0 385 H80 V335 H170"/>
-
-
-      <path
-        d="M1200 150 H1090 V205 H1010"/>
-
-
-      <path
-        d="M1200 390 H1100 V340 H1030"/>
-
-
-      <path
-        d="M350 0 V55 H430"/>
-
-
-      <path
-        d="M800 0 V55 H730"/>
+      <path d="M0 150H120V205H190"/>
+      <path d="M0 390H80V340H170"/>
+      <path d="M1200 150H1090V205H1010"/>
+      <path d="M1200 390H1100V340H1030"/>
+      <path d="M350 0V55H430"/>
+      <path d="M850 0V55H780"/>
 
     </g>
-
 
     <!-- =====================================================
-         MOVING DATA PARTICLES
+         BACKGROUND DATA PARTICLES
     ====================================================== -->
 
-    <g fill="#67E8F9">
+    <circle cx="0" cy="150" r="3" fill="#67E8F9">
 
+      <animate
+        attributeName="cx"
+        values="0;120;190"
+        dur="4s"
+        repeatCount="indefinite"/>
 
-      <circle
-        cx="0"
-        cy="155"
-        r="3">
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        dur="4s"
+        repeatCount="indefinite"/>
 
-        <animate
-          attributeName="cx"
-          values="0;120;190"
-          dur="4s"
-          repeatCount="indefinite"/>
+    </circle>
 
-      </circle>
+    <circle cx="1200" cy="150" r="3" fill="#818CF8">
 
+      <animate
+        attributeName="cx"
+        values="1200;1090;1010"
+        dur="4.5s"
+        repeatCount="indefinite"/>
 
-      <circle
-        cx="1200"
-        cy="150"
-        r="3">
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        dur="4.5s"
+        repeatCount="indefinite"/>
 
-        <animate
-          attributeName="cx"
-          values="1200;1090;1010"
-          dur="4.5s"
-          repeatCount="indefinite"/>
+    </circle>
 
-      </circle>
+    <circle cx="0" cy="390" r="3" fill="#C084FC">
 
+      <animate
+        attributeName="cx"
+        values="0;80;170"
+        dur="5s"
+        repeatCount="indefinite"/>
 
-      <circle
-        cx="0"
-        cy="385"
-        r="3">
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        dur="5s"
+        repeatCount="indefinite"/>
 
-        <animate
-          attributeName="cx"
-          values="0;80;170"
-          dur="5s"
-          repeatCount="indefinite"/>
+    </circle>
 
-      </circle>
+    <circle cx="1200" cy="390" r="3" fill="#38BDF8">
 
+      <animate
+        attributeName="cx"
+        values="1200;1100;1030"
+        dur="5.5s"
+        repeatCount="indefinite"/>
 
-      <circle
-        cx="1200"
-        cy="390"
-        r="3">
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        dur="5.5s"
+        repeatCount="indefinite"/>
 
-        <animate
-          attributeName="cx"
-          values="1200;1100;1030"
-          dur="5.5s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-    </g>
-
+    </circle>
 
     <!-- =====================================================
          FLOATING DEVELOPER SYMBOLS
     ====================================================== -->
 
+    <g font-family="monospace">
 
-    <!-- Code -->
+      <text
+        x="70"
+        y="115"
+        fill="#22D3EE"
+        font-size="26"
+        opacity=".15">
 
-    <text
-      x="80"
-      y="120"
-      fill="#22D3EE"
-      opacity="0.16"
-      font-family="monospace"
-      font-size="26">
+        &lt;/&gt;
 
-      &lt;/&gt;
+        <animate
+          attributeName="y"
+          values="115;90;115"
+          dur="6s"
+          repeatCount="indefinite"/>
 
-      <animate
-        attributeName="y"
-        values="120;95;120"
-        dur="6s"
-        repeatCount="indefinite"/>
+        <animate
+          attributeName="opacity"
+          values=".08;.25;.08"
+          dur="6s"
+          repeatCount="indefinite"/>
 
-      <animate
-        attributeName="opacity"
-        values="0.08;0.25;0.08"
-        dur="6s"
-        repeatCount="indefinite"/>
+      </text>
 
-    </text>
+      <text
+        x="1080"
+        y="115"
+        fill="#A78BFA"
+        font-size="32"
+        opacity=".13">
 
+        { }
 
-    <!-- Brackets -->
+        <animate
+          attributeName="y"
+          values="115;145;115"
+          dur="7s"
+          repeatCount="indefinite"/>
 
-    <text
-      x="1080"
-      y="120"
-      fill="#A78BFA"
-      opacity="0.14"
-      font-family="monospace"
-      font-size="32">
+      </text>
 
-      { }
+      <text
+        x="65"
+        y="470"
+        fill="#C084FC"
+        font-size="30"
+        opacity=".12">
 
-      <animate
-        attributeName="y"
-        values="120;150;120"
-        dur="7s"
-        repeatCount="indefinite"/>
+        [ ]
 
-    </text>
+        <animate
+          attributeName="y"
+          values="470;440;470"
+          dur="7s"
+          repeatCount="indefinite"/>
 
+      </text>
 
-    <!-- Square brackets -->
+      <text
+        x="1080"
+        y="430"
+        fill="#38BDF8"
+        font-size="18"
+        opacity=".12">
 
-    <text
-      x="70"
-      y="455"
-      fill="#C084FC"
-      opacity="0.13"
-      font-family="monospace"
-      font-size="30">
+        API
 
-      [ ]
+        <animate
+          attributeName="y"
+          values="430;400;430"
+          dur="6s"
+          repeatCount="indefinite"/>
 
-      <animate
-        attributeName="y"
-        values="455;430;455"
-        dur="7s"
-        repeatCount="indefinite"/>
+      </text>
 
-    </text>
+      <text
+        x="290"
+        y="45"
+        fill="#F472B6"
+        font-size="15"
+        opacity=".12">
 
+        npm
 
-    <!-- API -->
+        <animate
+          attributeName="x"
+          values="290;325;290"
+          dur="8s"
+          repeatCount="indefinite"/>
 
-    <text
-      x="1080"
-      y="430"
-      fill="#38BDF8"
-      opacity="0.13"
-      font-family="monospace"
-      font-size="18">
+      </text>
 
-      API
+      <text
+        x="850"
+        y="505"
+        fill="#F97316"
+        font-size="15"
+        opacity=".12">
 
-      <animate
-        attributeName="y"
-        values="430;405;430"
-        dur="5s"
-        repeatCount="indefinite"/>
+        git
 
-    </text>
+        <animate
+          attributeName="x"
+          values="850;815;850"
+          dur="7s"
+          repeatCount="indefinite"/>
 
+      </text>
 
-    <!-- npm -->
-
-    <text
-      x="300"
-      y="45"
-      fill="#F472B6"
-      opacity="0.12"
-      font-family="monospace"
-      font-size="16">
-
-      npm
-
-      <animate
-        attributeName="x"
-        values="300;330;300"
-        dur="8s"
-        repeatCount="indefinite"/>
-
-    </text>
-
-
-    <!-- git -->
-
-    <text
-      x="850"
-      y="500"
-      fill="#F97316"
-      opacity="0.12"
-      font-family="monospace"
-      font-size="16">
-
-      git
-
-      <animate
-        attributeName="x"
-        values="850;820;850"
-        dur="7s"
-        repeatCount="indefinite"/>
-
-    </text>
-
+    </g>
 
     <!-- =====================================================
-         BINARY STREAMS
+         BINARY STREAM
     ====================================================== -->
 
     <g
       font-family="monospace"
-      font-size="10"
+      font-size="9"
       fill="#38BDF8"
-      opacity="0.10">
+      opacity=".10">
 
-
-      <text
-        x="260"
-        y="120">
+      <text x="250" y="115">
 
         01001010
 
         <animate
           attributeName="y"
-          values="120;160;120"
+          values="115;155;115"
           dur="5s"
           repeatCount="indefinite"/>
 
       </text>
 
-
-      <text
-        x="900"
-        y="350">
+      <text x="900" y="350">
 
         10110101
 
@@ -524,10 +457,7 @@
 
       </text>
 
-
-      <text
-        x="570"
-        y="35">
+      <text x="570" y="40">
 
         01101001
 
@@ -539,191 +469,42 @@
 
       </text>
 
-
-      <text
-        x="430"
-        y="500">
-
-        11001010
-
-        <animate
-          attributeName="x"
-          values="430;400;430"
-          dur="6s"
-          repeatCount="indefinite"/>
-
-      </text>
-
     </g>
 
-
     <!-- =====================================================
-         FLOATING PARTICLES
-    ====================================================== -->
-
-    <g fill="#FFFFFF">
-
-
-      <circle
-        cx="160"
-        cy="250"
-        r="1.5">
-
-        <animate
-          attributeName="cy"
-          values="250;220;250"
-          dur="4s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-
-      <circle
-        cx="1030"
-        cy="250"
-        r="1.5">
-
-        <animate
-          attributeName="cy"
-          values="250;280;250"
-          dur="5s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-
-      <circle
-        cx="350"
-        cy="470"
-        r="1.5">
-
-        <animate
-          attributeName="cy"
-          values="470;440;470"
-          dur="5s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-
-      <circle
-        cx="800"
-        cy="90"
-        r="1.5">
-
-        <animate
-          attributeName="cy"
-          values="90;120;90"
-          dur="4s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-    </g>
-
-
-    <!-- =====================================================
-         NETWORK NODES
-    ====================================================== -->
-
-    <g fill="#818CF8">
-
-
-      <circle
-        cx="190"
-        cy="205"
-        r="3">
-
-        <animate
-          attributeName="r"
-          values="2;6;2"
-          dur="3s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-
-      <circle
-        cx="1010"
-        cy="205"
-        r="3">
-
-        <animate
-          attributeName="r"
-          values="2;6;2"
-          dur="4s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-
-      <circle
-        cx="170"
-        cy="335"
-        r="3">
-
-        <animate
-          attributeName="r"
-          values="2;6;2"
-          dur="3.5s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-
-      <circle
-        cx="1030"
-        cy="340"
-        r="3">
-
-        <animate
-          attributeName="r"
-          values="2;6;2"
-          dur="4.5s"
-          repeatCount="indefinite"/>
-
-      </circle>
-
-    </g>
-
-
-    <!-- =====================================================
-         MAIN GLASS PANEL
+         MAIN GLASS CARD
     ====================================================== -->
 
     <rect
-      x="30"
-      y="25"
-      width="1140"
-      height="510"
-      rx="28"
+      x="20"
+      y="20"
+      width="1160"
+      height="520"
+      rx="30"
       fill="url(#glass)"
       stroke="#FFFFFF"
-      stroke-opacity="0.13"
-      stroke-width="1"/>
+      stroke-opacity=".12"/>
 
-
-    <!-- Animated glass border -->
+    <!-- Animated outer border -->
 
     <rect
-      x="30"
-      y="25"
-      width="1140"
-      height="510"
-      rx="28"
+      x="20"
+      y="20"
+      width="1160"
+      height="520"
+      rx="30"
       fill="none"
       stroke="url(#aurora)"
       stroke-width="2"
-      opacity="0.65">
+      opacity=".65">
 
       <animate
         attributeName="opacity"
-        values="0.35;0.8;0.35"
+        values=".35;.85;.35"
         dur="5s"
         repeatCount="indefinite"/>
 
     </rect>
-
 
     <!-- =====================================================
          HEADER
@@ -731,7 +512,7 @@
 
     <text
       x="65"
-      y="67"
+      y="65"
       fill="#64748B"
       font-family="monospace"
       font-size="12"
@@ -741,167 +522,60 @@
 
     </text>
 
-
-    <!-- Online indicator -->
+    <!-- OPEN TO BUILD -->
 
     <circle
-      cx="1060"
-      cy="61"
+      cx="1045"
+      cy="59"
       r="5"
       fill="#22C55E">
 
       <animate
         attributeName="opacity"
-        values="0.35;1;0.35"
+        values=".3;1;.3"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="r"
+        values="4;6;4"
         dur="2s"
         repeatCount="indefinite"/>
 
     </circle>
 
-
     <text
-      x="1075"
-      y="66"
+      x="1060"
+      y="64"
       fill="#94A3B8"
       font-family="Arial"
-      font-size="11">
+      font-size="10">
 
       OPEN TO BUILD
 
     </text>
 
-
     <!-- =====================================================
-         LEFT SIDE GLOW
-    ====================================================== -->
-
-    <ellipse
-      cx="280"
-      cy="220"
-      rx="280"
-      ry="145"
-      fill="#6366F1"
-      opacity="0.045"
-      filter="url(#glow)">
-
-      <animate
-        attributeName="cx"
-        values="280;320;280"
-        dur="9s"
-        repeatCount="indefinite"/>
-
-    </ellipse>
-
-
-    <!-- =====================================================
-         FLOATING CODE AROUND PROFILE
-    ====================================================== -->
-
-    <g font-family="monospace">
-
-
-      <text
-        x="58"
-        y="112"
-        fill="#22D3EE"
-        opacity="0.16"
-        font-size="12">
-
-        const developer = {
-
-        <animate
-          attributeName="x"
-          values="58;72;58"
-          dur="7s"
-          repeatCount="indefinite"/>
-
-        <animate
-          attributeName="opacity"
-          values="0.08;0.22;0.08"
-          dur="7s"
-          repeatCount="indefinite"/>
-
-      </text>
-
-
-      <text
-        x="430"
-        y="135"
-        fill="#A78BFA"
-        opacity="0.15"
-        font-size="11">
-
-        async build()
-
-        <animate
-          attributeName="y"
-          values="135;120;135"
-          dur="5s"
-          repeatCount="indefinite"/>
-
-      </text>
-
-
-      <text
-        x="350"
-        y="305"
-        fill="#38BDF8"
-        opacity="0.13"
-        font-size="10">
-
-        {'AI': true}
-
-        <animate
-          attributeName="x"
-          values="350;370;350"
-          dur="6s"
-          repeatCount="indefinite"/>
-
-      </text>
-
-
-      <text
-        x="65"
-        y="345"
-        fill="#C084FC"
-        opacity="0.12"
-        font-size="10">
-
-        npm run build
-
-        <animate
-          attributeName="x"
-          values="65;80;65"
-          dur="8s"
-          repeatCount="indefinite"/>
-
-      </text>
-
-    </g>
-
-
-    <!-- =====================================================
-         TERMINAL HEADER
+         LEFT TERMINAL
     ====================================================== -->
 
     <circle
-      cx="80"
-      cy="135"
+      cx="78"
+      cy="130"
       r="5"
       fill="#22C55E">
 
       <animate
         attributeName="opacity"
-        values="0.3;1;0.3"
+        values=".3;1;.3"
         dur="2s"
         repeatCount="indefinite"/>
 
     </circle>
 
-
     <text
       x="95"
-      y="140"
+      y="135"
       fill="#64748B"
       font-family="monospace"
       font-size="13">
@@ -910,10 +584,9 @@
 
     </text>
 
-
     <text
       x="250"
-      y="140"
+      y="135"
       fill="#22D3EE"
       font-family="monospace"
       font-size="13">
@@ -922,12 +595,9 @@
 
     </text>
 
-
-    <!-- Blinking terminal cursor -->
-
     <rect
       x="315"
-      y="128"
+      y="123"
       width="7"
       height="15"
       rx="1"
@@ -940,7 +610,6 @@
         repeatCount="indefinite"/>
 
     </rect>
-
 
     <!-- =====================================================
          NAME
@@ -958,167 +627,78 @@
 
     </text>
 
-
-    <!-- =====================================================
-         CURRENT ROLE LABEL
-    ====================================================== -->
-
-    <text
-      x="75"
-      y="226"
-      fill="#475569"
-      font-family="monospace"
-      font-size="8"
-      letter-spacing="2">
-
-      CURRENT ROLE
-
-    </text>
-
-
-    <!-- =====================================================
-         ANIMATED PROFESSIONAL IDENTITY
-         
-         01 CSE Undergraduate
-         02 Full-Stack Developer
-         03 Builder & Problem Solver
-         04 Turning Ideas Into Working Systems
-    ====================================================== -->
-
-
-    <!-- 01 CSE UNDERGRADUATE -->
-
-    <text
-      x="75"
-      y="250"
-      fill="#67E8F9"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="20"
-      font-weight="600"
-      opacity="0">
-
-      CSE Undergraduate
-
-      <animate
-        attributeName="opacity"
-        values="0;1;1;0"
-        keyTimes="0;0.05;0.20;0.25"
-        dur="12s"
-        repeatCount="indefinite"/>
-
-    </text>
-
-
-    <!-- 02 FULL-STACK DEVELOPER -->
-
-    <text
-      x="75"
-      y="250"
-      fill="#A5B4FC"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="20"
-      font-weight="600"
-      opacity="0">
-
-      Full-Stack Developer
-
-      <animate
-        attributeName="opacity"
-        values="0;1;1;0"
-        keyTimes="0.25;0.30;0.45;0.50"
-        dur="12s"
-        repeatCount="indefinite"/>
-
-    </text>
-
-
-    <!-- 03 BUILDER & PROBLEM SOLVER -->
-
-    <text
-      x="75"
-      y="250"
-      fill="#C084FC"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="20"
-      font-weight="600"
-      opacity="0">
-
-      Builder &amp; Problem Solver
-
-      <animate
-        attributeName="opacity"
-        values="0;1;1;0"
-        keyTimes="0.50;0.55;0.70;0.75"
-        dur="12s"
-        repeatCount="indefinite"/>
-
-    </text>
-
-
-    <!-- 04 TURNING IDEAS INTO WORKING SYSTEMS -->
-
-    <text
-      x="75"
-      y="250"
-      fill="#F472B6"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="17"
-      font-weight="600"
-      opacity="0">
-
-      Turning Ideas Into Working Systems
-
-      <animate
-        attributeName="opacity"
-        values="0;1;1;0"
-        keyTimes="0.75;0.80;0.95;0.995"
-        dur="12s"
-        repeatCount="indefinite"/>
-
-    </text>
-
-
-    <!-- =====================================================
-         ROLE CURSOR
-    ====================================================== -->
-
-    <rect
-      x="75"
-      y="232"
-      width="3"
-      height="22"
-      rx="1"
+    <circle
+      cx="320"
+      cy="187"
+      r="3"
       fill="#22D3EE">
 
       <animate
-        attributeName="opacity"
-        values="1;0;1"
-        dur="1s"
+        attributeName="r"
+        values="2;6;2"
+        dur="2.5s"
         repeatCount="indefinite"/>
 
-    </rect>
-
+    </circle>
 
     <!-- =====================================================
-         ROLE UNDERLINE
+         ROLE
     ====================================================== -->
+
+    <text
+      x="75"
+      y="244"
+      fill="#A5B4FC"
+      font-family="Arial"
+      font-size="21"
+      font-weight="700"
+      letter-spacing="2">
+
+      FULL-STACK DEVELOPER
+
+    </text>
 
     <rect
       x="75"
-      y="264"
-      width="170"
+      y="258"
+      width="180"
       height="3"
       rx="2"
       fill="url(#aurora)">
 
       <animate
         attributeName="width"
-        values="100;190;140;190;100"
-        dur="6s"
+        values="140;220;175;200;140"
+        dur="5s"
         repeatCount="indefinite"/>
 
     </rect>
 
+    <!-- =====================================================
+         EDUCATION
+    ====================================================== -->
+
+    <text
+      x="75"
+      y="290"
+      fill="#E2E8F0"
+      font-family="Arial"
+      font-size="16">
+
+      CSE Undergraduate
+
+    </text>
+
+    <text
+      x="75"
+      y="315"
+      fill="#94A3B8"
+      font-family="Arial"
+      font-size="13">
+
+      Builder • Problem Solver • Product Mindset
+
+    </text>
 
     <!-- =====================================================
          DESCRIPTION
@@ -1126,27 +706,25 @@
 
     <text
       x="75"
-      y="305"
+      y="350"
       fill="#CBD5E1"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="16">
+      font-family="Arial"
+      font-size="14">
 
       Building scalable applications,
 
     </text>
 
-
     <text
       x="75"
-      y="330"
+      y="372"
       fill="#CBD5E1"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="16">
+      font-family="Arial"
+      font-size="14">
 
       intelligent products &amp; developer tools.
 
     </text>
-
 
     <!-- =====================================================
          SYSTEM STATUS
@@ -1154,28 +732,27 @@
 
     <text
       x="75"
-      y="353"
+      y="398"
       fill="#475569"
       font-family="monospace"
-      font-size="9">
+      font-size="8"
+      letter-spacing="1">
 
       SYSTEM STATUS
 
     </text>
 
-
     <rect
       x="170"
-      y="346"
+      y="391"
       width="125"
       height="4"
       rx="2"
       fill="#1E293B"/>
 
-
     <rect
       x="170"
-      y="346"
+      y="391"
       width="80"
       height="4"
       rx="2"
@@ -1183,378 +760,973 @@
 
       <animate
         attributeName="width"
-        values="65;110;80;95;65"
+        values="65;115;80;105;65"
         dur="5s"
         repeatCount="indefinite"/>
 
     </rect>
 
-
     <circle
       cx="310"
-      cy="348"
+      cy="393"
       r="4"
       fill="#22C55E">
 
       <animate
         attributeName="opacity"
-        values="0.4;1;0.4"
+        values=".3;1;.3"
         dur="2s"
         repeatCount="indefinite"/>
 
     </circle>
 
-
     <!-- =====================================================
-         TECHNOLOGY PILLS
+         LEFT TECH PILLS
     ====================================================== -->
-
 
     <!-- React -->
 
     <rect
       x="75"
-      y="370"
-      width="105"
-      height="38"
-      rx="19"
+      y="420"
+      width="100"
+      height="36"
+      rx="18"
       fill="#22D3EE"
-      fill-opacity="0.055"
+      fill-opacity=".05"
       stroke="#22D3EE"
-      stroke-opacity="0.32"/>
+      stroke-opacity=".30"/>
 
-
-    <circle
-      cx="94"
-      cy="389"
-      r="3"
-      fill="#22D3EE"/>
-
+    <circle cx="94" cy="438" r="3" fill="#22D3EE"/>
 
     <text
       x="108"
-      y="394"
+      y="443"
       fill="#BAE6FD"
       font-family="Arial"
-      font-size="13">
+      font-size="12">
 
       React
 
     </text>
 
-
-    <!-- Next.js -->
+    <!-- Next -->
 
     <rect
-      x="190"
-      y="370"
-      width="105"
-      height="38"
-      rx="19"
+      x="185"
+      y="420"
+      width="100"
+      height="36"
+      rx="18"
       fill="#FFFFFF"
-      fill-opacity="0.035"
+      fill-opacity=".03"
       stroke="#FFFFFF"
-      stroke-opacity="0.17"/>
+      stroke-opacity=".16"/>
 
-
-    <circle
-      cx="209"
-      cy="389"
-      r="3"
-      fill="#E2E8F0"/>
-
+    <circle cx="204" cy="438" r="3" fill="#E2E8F0"/>
 
     <text
-      x="223"
-      y="394"
+      x="217"
+      y="443"
       fill="#E2E8F0"
       font-family="Arial"
-      font-size="13">
+      font-size="12">
 
       Next.js
 
     </text>
 
-
     <!-- TypeScript -->
 
     <rect
-      x="305"
-      y="370"
-      width="115"
-      height="38"
-      rx="19"
+      x="295"
+      y="420"
+      width="112"
+      height="36"
+      rx="18"
       fill="#818CF8"
-      fill-opacity="0.055"
+      fill-opacity=".05"
       stroke="#818CF8"
-      stroke-opacity="0.32"/>
+      stroke-opacity=".30"/>
 
-
-    <circle
-      cx="324"
-      cy="389"
-      r="3"
-      fill="#818CF8"/>
-
+    <circle cx="314" cy="438" r="3" fill="#818CF8"/>
 
     <text
-      x="338"
-      y="394"
+      x="327"
+      y="443"
       fill="#C7D2FE"
       font-family="Arial"
-      font-size="13">
+      font-size="12">
 
       TypeScript
 
     </text>
 
-
     <!-- Node -->
 
     <rect
-      x="430"
-      y="370"
+      x="417"
+      y="420"
       width="105"
-      height="38"
-      rx="19"
+      height="36"
+      rx="18"
       fill="#22C55E"
-      fill-opacity="0.055"
+      fill-opacity=".05"
       stroke="#22C55E"
-      stroke-opacity="0.28"/>
+      stroke-opacity=".28"/>
 
-
-    <circle
-      cx="449"
-      cy="389"
-      r="3"
-      fill="#22C55E"/>
-
+    <circle cx="436" cy="438" r="3" fill="#22C55E"/>
 
     <text
-      x="463"
-      y="394"
+      x="449"
+      y="443"
       fill="#BBF7D0"
       font-family="Arial"
-      font-size="13">
+      font-size="12">
 
       Node.js
 
     </text>
 
-
     <!-- =====================================================
-         RIGHT SIDE — CURRENTLY BUILDING
+         RIGHT SIDE
+         ANIMATED DEVELOPER WORKSPACE
     ====================================================== -->
 
-    <rect
-      x="660"
-      y="120"
-      width="430"
-      height="245"
-      rx="20"
-      fill="#020617"
-      fill-opacity="0.46"
-      stroke="#FFFFFF"
-      stroke-opacity="0.09"/>
+    <!-- Main glass panel -->
 
+    <rect
+      x="650"
+      y="100"
+      width="455"
+      height="300"
+      rx="22"
+      fill="#020617"
+      fill-opacity=".52"
+      stroke="#FFFFFF"
+      stroke-opacity=".10"/>
+
+    <!-- Soft animated border -->
+
+    <rect
+      x="650"
+      y="100"
+      width="455"
+      height="300"
+      rx="22"
+      fill="none"
+      stroke="url(#aurora)"
+      stroke-width="1.3"
+      opacity=".42">
+
+      <animate
+        attributeName="opacity"
+        values=".20;.65;.20"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- Traveling border segment -->
+
+    <rect
+      x="650"
+      y="100"
+      width="455"
+      height="300"
+      rx="22"
+      fill="none"
+      stroke="#22D3EE"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-dasharray="50 1450"
+      opacity=".85">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-1500"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- =====================================================
+         PANEL TITLE
+    ====================================================== -->
 
     <text
-      x="690"
-      y="152"
+      x="680"
+      y="130"
       fill="#64748B"
       font-family="monospace"
-      font-size="12">
+      font-size="10"
+      letter-spacing="1.5">
 
       // CURRENTLY BUILDING
 
     </text>
 
+    <!-- LIVE -->
 
-    <!-- Terminal -->
+    <circle
+      cx="1040"
+      cy="125"
+      r="4"
+      fill="#22C55E">
+
+      <animate
+        attributeName="r"
+        values="3;6;3"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".35;1;.35"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="1040"
+      cy="125"
+      r="8"
+      fill="none"
+      stroke="#22C55E"
+      opacity=".2">
+
+      <animate
+        attributeName="r"
+        values="5;11;5"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".35;0;.35"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <text
-      x="690"
-      y="188"
+      x="1051"
+      y="128"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="7">
+
+      LIVE
+
+    </text>
+
+    <!-- =====================================================
+         TERMINAL WINDOW
+    ====================================================== -->
+
+    <rect
+      x="675"
+      y="143"
+      width="405"
+      height="38"
+      rx="9"
+      fill="#020617"
+      stroke="#FFFFFF"
+      stroke-opacity=".09"/>
+
+    <!-- Terminal traffic lights -->
+
+    <circle cx="690" cy="162" r="3.5" fill="#F472B6">
+      <animate
+        attributeName="opacity"
+        values=".5;1;.5"
+        dur="2.4s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="703" cy="162" r="3.5" fill="#FBBF24"/>
+
+    <circle cx="716" cy="162" r="3.5" fill="#22C55E"/>
+
+    <text
+      x="735"
+      y="167"
       fill="#22D3EE"
       font-family="monospace"
-      font-size="13">
+      font-size="11">
 
       &gt; npm run build
 
     </text>
 
-
-    <!-- Cursor -->
+    <!-- terminal cursor -->
 
     <rect
-      x="825"
-      y="177"
-      width="7"
-      height="15"
+      x="855"
+      y="155"
+      width="6"
+      height="13"
+      rx="1"
       fill="#22D3EE">
 
       <animate
         attributeName="opacity"
         values="1;0;1"
-        dur="1s"
+        dur=".9s"
         repeatCount="indefinite"/>
 
     </rect>
 
+    <!-- =====================================================
+         CODE → BUILD → TEST → SHIP PIPELINE
+    ====================================================== -->
 
-    <!-- Full Stack -->
+    <!-- Base line -->
+
+    <line
+      x1="695"
+      y1="213"
+      x2="1060"
+      y2="213"
+      stroke="#1E293B"
+      stroke-width="2"/>
+
+    <!-- Active line -->
+
+    <line
+      x1="695"
+      y1="213"
+      x2="1060"
+      y2="213"
+      stroke="url(#aurora)"
+      stroke-width="2"
+      opacity=".30">
+
+      <animate
+        attributeName="opacity"
+        values=".15;.65;.15"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </line>
+
+    <!-- CODE -->
 
     <circle
-      cx="694"
-      cy="225"
-      r="4"
-      fill="#38BDF8"/>
+      cx="695"
+      cy="213"
+      r="6"
+      fill="#020617"
+      stroke="#22D3EE"
+      stroke-width="2">
 
+      <animate
+        attributeName="r"
+        values="5;8;5"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="695"
+      cy="213"
+      r="2.5"
+      fill="#22D3EE"/>
+
+    <text
+      x="695"
+      y="234"
+      text-anchor="middle"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="7">
+
+      CODE
+
+    </text>
+
+    <!-- BUILD -->
+
+    <circle
+      cx="815"
+      cy="213"
+      r="6"
+      fill="#020617"
+      stroke="#818CF8"
+      stroke-width="2">
+
+      <animate
+        attributeName="r"
+        values="5;8;5"
+        dur="2.8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="815"
+      cy="213"
+      r="2.5"
+      fill="#818CF8"/>
+
+    <text
+      x="815"
+      y="234"
+      text-anchor="middle"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="7">
+
+      BUILD
+
+    </text>
+
+    <!-- TEST -->
+
+    <circle
+      cx="935"
+      cy="213"
+      r="6"
+      fill="#020617"
+      stroke="#C084FC"
+      stroke-width="2">
+
+      <animate
+        attributeName="r"
+        values="5;8;5"
+        dur="3.1s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="935"
+      cy="213"
+      r="2.5"
+      fill="#C084FC"/>
+
+    <text
+      x="935"
+      y="234"
+      text-anchor="middle"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="7">
+
+      TEST
+
+    </text>
+
+    <!-- SHIP -->
+
+    <circle
+      cx="1060"
+      cy="213"
+      r="6"
+      fill="#020617"
+      stroke="#22C55E"
+      stroke-width="2">
+
+      <animate
+        attributeName="r"
+        values="5;8;5"
+        dur="3.4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="1060"
+      cy="213"
+      r="2.5"
+      fill="#22C55E"/>
+
+    <text
+      x="1060"
+      y="234"
+      text-anchor="middle"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="7">
+
+      SHIP
+
+    </text>
+
+    <!-- =====================================================
+         MOVING BUILD PACKET
+    ====================================================== -->
+
+    <circle
+      cx="695"
+      cy="213"
+      r="9"
+      fill="#22D3EE"
+      opacity=".12"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="cx"
+        values="695;815;935;1060;695"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="fill"
+        values="#22D3EE;#818CF8;#C084FC;#22C55E;#22D3EE"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="695"
+      cy="213"
+      r="3.5"
+      fill="#22D3EE">
+
+      <animate
+        attributeName="cx"
+        values="695;815;935;1060;695"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="fill"
+        values="#22D3EE;#818CF8;#C084FC;#22C55E;#22D3EE"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <!-- =====================================================
+         FEATURE ROW 1
+    ====================================================== -->
+
+    <circle
+      cx="690"
+      cy="266"
+      r="5"
+      fill="#38BDF8">
+
+      <animate
+        attributeName="r"
+        values="4;7;4"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".45;1;.45"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <text
       x="710"
-      y="230"
-      fill="#E2E8F0"
+      y="271"
+      fill="#F1F5F9"
       font-family="Arial"
-      font-size="14">
+      font-size="13"
+      font-weight="600">
 
       Full-Stack Applications
 
     </text>
 
+    <!-- Progress -->
 
-    <!-- AI -->
+    <rect
+      x="930"
+      y="263"
+      width="115"
+      height="4"
+      rx="2"
+      fill="#1E293B"/>
+
+    <rect
+      x="930"
+      y="263"
+      width="75"
+      height="4"
+      rx="2"
+      fill="#38BDF8">
+
+      <animate
+        attributeName="width"
+        values="42;92;68;82;42"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </rect>
 
     <circle
-      cx="694"
-      cy="260"
-      r="4"
-      fill="#818CF8"/>
+      cx="1030"
+      cy="265"
+      r="1.5"
+      fill="#38BDF8"
+      opacity=".3"/>
 
+    <!-- =====================================================
+         FEATURE ROW 2
+    ====================================================== -->
+
+    <circle
+      cx="690"
+      cy="306"
+      r="5"
+      fill="#818CF8">
+
+      <animate
+        attributeName="r"
+        values="4;7;4"
+        dur="2.8s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".45;1;.45"
+        dur="2.8s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <text
       x="710"
-      y="265"
-      fill="#E2E8F0"
+      y="311"
+      fill="#F1F5F9"
       font-family="Arial"
-      font-size="14">
+      font-size="13"
+      font-weight="600">
 
       AI-Powered Products
 
     </text>
 
+    <rect
+      x="930"
+      y="303"
+      width="115"
+      height="4"
+      rx="2"
+      fill="#1E293B"/>
 
-    <!-- Developer Tools -->
+    <rect
+      x="930"
+      y="303"
+      width="85"
+      height="4"
+      rx="2"
+      fill="#818CF8">
+
+      <animate
+        attributeName="width"
+        values="52;100;76;94;52"
+        dur="5.5s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- =====================================================
+         FEATURE ROW 3
+    ====================================================== -->
 
     <circle
-      cx="694"
-      cy="295"
-      r="4"
-      fill="#C084FC"/>
+      cx="690"
+      cy="346"
+      r="5"
+      fill="#C084FC">
 
+      <animate
+        attributeName="r"
+        values="4;7;4"
+        dur="3.2s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".45;1;.45"
+        dur="3.2s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <text
       x="710"
-      y="300"
-      fill="#E2E8F0"
+      y="351"
+      fill="#F1F5F9"
       font-family="Arial"
-      font-size="14">
+      font-size="13"
+      font-weight="600">
 
       Developer Tools
 
     </text>
 
+    <rect
+      x="930"
+      y="343"
+      width="115"
+      height="4"
+      rx="2"
+      fill="#1E293B"/>
 
-    <!-- Real World -->
+    <rect
+      x="930"
+      y="343"
+      width="68"
+      height="4"
+      rx="2"
+      fill="#C084FC">
+
+      <animate
+        attributeName="width"
+        values="35;82;55;73;35"
+        dur="5.8s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- =====================================================
+         FEATURE ROW 4
+    ====================================================== -->
 
     <circle
-      cx="694"
-      cy="330"
-      r="4"
-      fill="#F472B6"/>
+      cx="690"
+      cy="376"
+      r="5"
+      fill="#F472B6">
 
+      <animate
+        attributeName="r"
+        values="4;8;4"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".45;1;.45"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <text
       x="710"
-      y="335"
-      fill="#E2E8F0"
+      y="381"
+      fill="#F1F5F9"
       font-family="Arial"
-      font-size="14">
+      font-size="13"
+      font-weight="600">
 
       Real-World Solutions
 
     </text>
 
+    <!-- =====================================================
+         RIGHT PANEL FLOATING PARTICLES
+    ====================================================== -->
+
+    <circle
+      cx="1025"
+      cy="150"
+      r="3"
+      fill="#6366F1">
+
+      <animate
+        attributeName="cy"
+        values="150;120;150"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".15;.8;.15"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="1060"
+      cy="285"
+      r="2"
+      fill="#FFFFFF"
+      opacity=".5">
+
+      <animate
+        attributeName="cy"
+        values="285;255;285"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="1010"
+      cy="370"
+      r="3"
+      fill="#38BDF8">
+
+      <animate
+        attributeName="cx"
+        values="1010;1050;1010"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".3;1;.3"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <!-- =====================================================
-         ACHIEVEMENTS
+         ACHIEVEMENT CARD
     ====================================================== -->
 
     <rect
-      x="660"
-      y="385"
-      width="430"
-      height="75"
-      rx="17"
+      x="650"
+      y="415"
+      width="455"
+      height="70"
+      rx="18"
       fill="#FFFFFF"
-      fill-opacity="0.035"
+      fill-opacity=".035"
       stroke="#FFFFFF"
-      stroke-opacity="0.08"/>
+      stroke-opacity=".09"/>
 
+    <!-- animated achievement border -->
+
+    <rect
+      x="650"
+      y="415"
+      width="455"
+      height="70"
+      rx="18"
+      fill="none"
+      stroke="url(#aurora)"
+      stroke-width="1"
+      opacity=".15">
+
+      <animate
+        attributeName="opacity"
+        values=".08;.35;.08"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- Moving achievement glow -->
+
+    <rect
+      x="650"
+      y="415"
+      width="85"
+      height="70"
+      rx="18"
+      fill="url(#aurora)"
+      opacity=".055">
+
+      <animate
+        attributeName="x"
+        values="650;1020;650"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+    </rect>
 
     <!-- Hackathon -->
 
     <text
-      x="690"
-      y="416"
+      x="680"
+      y="445"
       fill="#FBBF24"
       font-family="Arial"
-      font-size="20"
+      font-size="21"
       font-weight="700">
 
       2×
 
     </text>
 
-
     <text
-      x="730"
-      y="416"
+      x="720"
+      y="444"
       fill="#CBD5E1"
       font-family="Arial"
-      font-size="11">
+      font-size="10">
 
       HACKATHON WINNER
 
     </text>
 
+    <circle
+      cx="680"
+      cy="463"
+      r="2"
+      fill="#FBBF24">
+
+      <animate
+        attributeName="opacity"
+        values=".2;1;.2"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <!-- Separator -->
+
+    <line
+      x1="850"
+      y1="430"
+      x2="850"
+      y2="470"
+      stroke="#FFFFFF"
+      stroke-opacity=".06"/>
 
     <!-- Patents -->
 
     <text
-      x="690"
+      x="875"
       y="445"
       fill="#C084FC"
       font-family="Arial"
-      font-size="20"
+      font-size="21"
       font-weight="700">
 
       2×
 
     </text>
 
-
     <text
-      x="730"
-      y="445"
+      x="915"
+      y="444"
       fill="#CBD5E1"
       font-family="Arial"
-      font-size="11">
+      font-size="10">
 
       PUBLISHED PATENTS
 
     </text>
 
+    <circle
+      cx="875"
+      cy="463"
+      r="2"
+      fill="#C084FC">
+
+      <animate
+        attributeName="opacity"
+        values=".2;1;.2"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <!-- =====================================================
          FOOTER
@@ -1562,41 +1734,51 @@
 
     <line
       x1="75"
-      y1="440"
-      x2="535"
-      y2="440"
+      y1="500"
+      x2="1105"
+      y2="500"
       stroke="#FFFFFF"
-      stroke-opacity="0.07"/>
-
+      stroke-opacity=".06"/>
 
     <text
       x="75"
-      y="470"
+      y="522"
       fill="#475569"
       font-family="monospace"
-      font-size="10"
+      font-size="9"
       letter-spacing="3">
 
       BUILD • LEARN • SHIP
 
     </text>
 
+    <circle
+      cx="990"
+      cy="519"
+      r="2"
+      fill="#22D3EE">
+
+      <animate
+        attributeName="opacity"
+        values=".2;1;.2"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
 
     <text
-      x="535"
-      y="470"
+      x="1105"
+      y="522"
       text-anchor="end"
       fill="#475569"
       font-family="monospace"
-      font-size="10">
+      font-size="9">
 
-      2026
+      SUSHANT.DEV // 2026
 
     </text>
 
-
   </g>
-
 
   <!-- =====================================================
        OUTER BORDER
@@ -1607,7 +1789,7 @@
     y="1"
     width="1198"
     height="558"
-    rx="30"
+    rx="32"
     fill="none"
     stroke="#334155"
     stroke-width="2"/>
