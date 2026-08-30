@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="./assets/hero.svg"
+    src="./assets/hero3.svg"
     width="100%"
     alt="Sushant Kumar - Full Stack Developer"
   />
